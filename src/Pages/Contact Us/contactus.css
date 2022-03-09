@@ -1,0 +1,810 @@
+.body1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 15%;
+    background: #C1C1C1;
+}
+.body1_text{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 10.09%;
+    bottom: 78.47%;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+/* .semicircle{
+    position: absolute;
+width: 1672px;
+height: 1497px;
+left: -115px;
+top: 5px;
+
+background: #059FFF;
+} */
+.body2{
+    position: absolute;
+    top: 115%;
+    width: 100%;
+    height: 100%;
+}
+.body2_text1{
+    position: relative;
+    width: 416px;
+    height: 54px;
+    left: 5%;
+    top: 10%;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 27px;
+    /* or 75% */
+    letter-spacing: -0.02em;
+    color: #000000;
+
+}
+.body2_text2{
+    position: relative;
+    width: 553px;
+    height: 54px;
+    left: 5%;
+    top: 10%;
+    font-family: Mariupol;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+    letter-spacing: -0.02em;
+    color: rgba(33, 33, 33, 0.8);
+}
+.contactus_conversation{
+    position: relative;
+    width: 416px;
+    height: 44px;
+    left: 5%;
+    top: 10%;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    letter-spacing: -0.02em;
+    color: #000000;
+
+}
+.body2_box{
+    position: absolute;
+    width: 35%;
+    height: 80%;
+    left: 50%;
+    top: 10%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3), 0px 0px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.body2_box ::placeholder{ 
+    position: initial;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 15%;
+    padding-bottom: %;
+    padding-left: 3%;
+    color: #FFFFFF;
+}
+.body2_box button p{
+    position: relative;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+}
+.contactus_fname{
+    position: relative;
+    border: none;
+    width: 40%;
+    height: 8%;
+    left: 7%;
+    top: 5%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.contactus_lname{
+    position: relative;
+    border: none;
+    width: 40%;
+    height: 8%;
+    left: 10%;
+    top: 5%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+.contactus_phone{
+    position: absolute;
+    border: none;
+    width: 85%;
+    height: 8%;
+    left: 7%;
+    top: 18%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.contactus_email{
+    position: absolute;
+    border: none;
+    width: 85%;
+    height: 8%;
+    left: 7%;
+    top: 31%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.contactus_help{
+    position: absolute;
+    border: none;
+    width: 85%;
+    height: 40%;
+    left: 7%;
+    top: 44%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.contactus_send_button{
+    position: absolute;
+    border: none;
+    width: 22%;
+    height: 8%;
+    top: 89%;
+    left: 41%;
+    right: ;
+    bottom: 2%;
+    background: #4E4E4E;
+    border-radius: 10px;
+}
+.body3{
+    position: absolute;
+    top: 215%;
+    width: 100%;
+    height: 100%;
+}
+.contactus_ourlocation_text{
+position: relative;
+width: 249px;
+height: 48px;
+left: 5%;
+top: 10%;
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+}
+.contactus_usa_box{
+    position: absolute;
+    height: 350px;
+    width: 450px;
+    top: 25%;
+    left: 15%;
+    border-radius: 10px;
+    bottom: 9.56%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3), 0px 0px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.contactus_india_box{
+    position: absolute;
+    height: 350px;
+    width: 450px;
+    top: 40%;
+    left: 55%;
+    border-radius: 10px;
+    bottom: 9.56%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3), 0px 0px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.usa_text{
+    position: relative;
+    left: 44.22%;
+    right: 44.44%;
+    top: 3%;
+    bottom: 83.2%;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    color: #0073CB;
+}
+.contactus_address{
+    position: absolute;
+    left: 6.67%;
+    right: 6.89%;
+    top: 23.77%;
+    bottom: 53.75%;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.body4{
+    position: absolute;
+    top: 315%;
+    width: 100%;
+    height: 20%;
+}
+
+.nfc_logo{
+  position: absolute;
+  left: 6%;
+  right: 88.44%;
+  top: 35%;
+
+}
+.nfc_description{
+  position: relative;
+  width: 70%;
+  left: 22.49%;
+  right: 0.56%;
+  top: .55%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 53px;
+  /* or 223% */
+  color: #000000;
+}
+/* Footer */
+.Contactus_footer{
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  left: 0px;
+  top: 340%;
+}
+.Contactus_footer_office{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    display: flex;
+}
+.Contactus_footer_office_text{
+  position: relative;
+  top: 10%;
+  left: 3%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.Contactus_footer_usa{
+    position: absolute;
+    top: 150%;
+    width: 500%;
+
+}
+.Contactus_footer_usa_text{
+  position: relative;
+  left: 3%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.Contactus_footer_usa_address{
+  position: relative;
+  top: 65%;
+  left: 3%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 0.95);
+}
+.Contactus_footer_india{
+    position: absolute;
+    top: 150%;
+    left: 1000%;
+    width: 700%;
+}
+.Contactus_footer_india_text{
+  position: relative;
+  left: 3%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.Contactus_footer_india_address{
+  position: relative;
+  left: 3%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 0.95);
+}
+.Contactus_footer_sitemap{
+  position: absolute;
+  left: 25%;
+  width: 15%;
+  top: 25%;
+}
+.Contactus_footer_sitemap p{
+    position: relative;
+    width: 45%;
+    left: 10%;
+    padding: 2%;
+    list-style-type: none;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: rgba(160, 160, 155, 0.95);
+}
+.Contactus_footer_sitemap_text{
+  position: relative;
+  padding-bottom: 10%;
+  left: 0%;
+  top: 0%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+  color: #212121;
+}
+.Contactus_footer_aboutus{
+  position: relative;
+  left: 3%;
+  top: 0%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 0.95);
+}
+.Contactus_footer_services{
+  position: relative;
+  left: 3%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 0.95);
+}
+.Contactus_footer_work{
+  position: relative;
+  left: 3%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 0.95);
+}
+.Contactus_footer_careers{
+  position: relative;
+  left: 3%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 0.95);
+}
+.Contactus_footer_contact{
+  position: relative;
+  left: 3%;
+  right: 28.61%;
+  top: 93.86%;
+  bottom: 5.68%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 0.95);
+}
+.Contactus_footer_social{
+  position: absolute;
+  top: 25%;
+  width: 15%;
+  left: 5%;
+  list-style-type: none;
+}
+.Contactus_footer_social p{
+    position: relative;
+    top: 15%;
+    width: 15%;
+    left: 10%;
+    padding: 2%;
+    list-style-type: none;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: rgba(160, 160, 155, 0.95);
+
+}
+.Contactus_footer_social_text{
+  position: relative;
+  left: 0%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+  color: #212121;
+}
+.Contactus_footer_instagram{
+  position: relative;
+  left: 3%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 0.95);
+}
+.Contactus_footer_facebook{
+  position: relative;
+    left: 3%;
+    top: 180%;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: rgba(33, 33, 33, 0.95);
+}
+.Contactus_footer_linkedin{
+  position: relative;
+    left: 3%;
+    top: 89.9%;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: rgba(33, 33, 33, 0.95);
+}
+.Contactus_footer_bottom{
+  position: absolute;
+  width: 100%;
+  top: 400%;
+  display: flex;
+  padding-bottom: 1%;
+}
+.Contactus_footer_copyright{
+  position: relative;
+  left: 5%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height */
+  color: #A0A09B;
+}
+.Contactus_footer_terms{
+  position: relative;
+  left: 50%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height */
+  color: #A0A09B;
+}
+.Contactus_footer_privacy{
+  position: relative;
+  left: 60%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height */
+  color: #A0A09B;
+}
+
+
+
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+@media only screen and (max-device-width: 360px){
+    .body1{
+    position: absolute;
+    width: 360px;
+    height: 524px;
+    left: 0px;
+    top: 20%;  
+    background: #6D6D6D;
+    }
+    .body1_text{
+        display: none;
+    }
+    /* .semicircle{
+        position: absolute;
+    width: 1672px;
+    height: 1497px;
+    left: -115px;
+    top: 5px;
+
+    background: #059FFF;
+    } */
+    .body2{
+        position: absolute;
+        width: 360px;
+        height: 383px;
+        left: 0px;
+        top: 130%;
+        background: #FFFFFF;
+    }
+    .body2_text1{
+        position: absolute;
+        left: 5%;
+        top: 8%;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 140%;
+        /* identical to box height, or 17px */
+        color: #000000;
+    }
+    .body2_text2{
+        position: absolute;
+        left: 5%;
+        top: 15%;
+        font-family: Mariupol;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 8px;
+        line-height: 27px;
+        /* identical to box height, or 338% */
+        letter-spacing: -0.02em;
+        /* Indigo */
+        color: #0E0E2C;
+
+    }
+    .contactus_conversation{
+        position: absolute;
+        left: 5%;
+        top: 25%;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 140%;
+        /* identical to box height, or 17px */
+        color: #000000;
+    }
+    .body2_box{
+        position: absolute;
+        width: 287px;
+        height: 349px;
+        left: 37px;
+        top: 40%;       
+        background: #FFFFFF;
+        box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3), 0px 0px 4px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    .body2_box ::placeholder{ 
+        position: initial;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 8px;
+        line-height: 25px;
+        padding-top: 15%;
+        padding-bottom: %;
+        padding-left: 3%;
+        color: #FFFFFF;
+    }
+    .body2_box button p{
+        position: relative;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 8px;
+        line-height: 10px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+
+    }
+    .contactus_fname{
+        position: relative;
+        border: none;
+        width: 40%;
+        height: 8%;
+        left: 7%;
+        top: 5%;
+        background: #0073CB;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+    .body3{
+        position: absolute;
+        top: 250%;
+        width: 360px;
+        height: 250px;
+    }
+    .contactus_ourlocation_text{
+        position: absolute;
+        left: -12%;
+        top: 10%;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 140%;
+        /* identical to box height, or 17px */
+        color: #000000;
+    }
+    .address_boxes{
+        
+    }
+    .contactus_usa_box{
+        position: absolute;
+        text-align: center;
+        width: 40%;
+        height: 50%;
+        top: 30%;     
+        background: #FFFFFF;
+        box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3), 0px 0px 4px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    .contactus_india_box{
+        position: absolute;
+        text-align: center;
+        width: 40%;
+        height: 50%;
+        left: 45%;
+        top: 90%;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3), 0px 0px 4px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    .usa_text{
+        position: absolute;
+        text-align: center;
+        left: 43.24%;
+        top: 7.83%;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 140%;
+        /* identical to box height, or 17px */
+        text-align: center;
+        color: #059FFF;
+    }
+    .contactus_address{
+        position: absolute;
+        text-align: center;
+        top: 29.52%;
+        font-family: Mariupol;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 0.02em;
+        color: #000000;
+
+
+    }
+    .body4{
+        position: absolute;
+        top: 315%;
+        width: 80%;
+        height: 20%;
+    }
+    .nfc_description_page_hr{
+        position: absolute;
+        
+    }
+    .nfc_logo{
+    position: absolute;
+    left: 6%;
+    right: 88.44%;
+    top: 15%;
+
+    }
+    .nfc_description{
+    position: relative;
+    left: 22.49%;
+    right: 0.56%;
+    top: 2.55%;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 53px;
+    /* or 223% */
+    color: #000000;
+    }
+}

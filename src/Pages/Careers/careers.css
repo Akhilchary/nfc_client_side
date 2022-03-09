@@ -1,0 +1,235 @@
+.navbar-logo{
+    width: 55px;
+    height: 60px;
+    top: 15px;
+    right: 65px;
+}
+.nav-menu{
+    position: relative;
+    left: 650px;
+    bottom: 50px;
+    width: 800px;
+    height: 30px;
+}
+.nav-item{
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+}
+.nav-links{
+    text-decoration: none;
+    color: #42423E;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;  
+}
+.holding{
+    position: relative;
+    width: 424px;
+    height: 454px;
+    left: 910px;
+    top: 50px;
+}
+.C-heading{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    position: relative;
+    left: 65px;
+    top: 100px;
+}
+.C-Para{
+    width: 540px;
+    height: 140px;
+    position: absolute;
+    top: 320px;
+    left: 60px;
+}
+.C-para{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.C-section2{
+    position: absolute;
+    top: 780px;
+    left: 60px;
+}
+
+.roles{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    
+}
+.location>span{
+    padding: 30px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    text-decoration: underline ;
+    position: relative;
+    left: 200px;
+    top: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.product>hr{
+    width: 90%;
+    position: relative;
+    left: 170px;
+}
+.product>span{
+    position: relative;
+    left: 225px;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;  
+}
+.product>span:hover{
+    color: blue;
+}
+.product>h3{
+    position: relative;
+    left: 700px;
+}
+.view{
+    width: 200px;
+    height: 70px;
+    border-radius: 40px;
+    background-color: #059FFF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    position: relative;
+    left: 87%;
+    top: 20px;
+}
+.logo1{
+    position: relative;
+    top: 145px;
+    width: 100px;
+    height: 115px;
+}
+.about{
+    width: 1100px;
+    height: 190px;
+    position: relative;
+    left: 320px;
+    top: 60px;
+    line-height: 40px;
+}
+.about-content{
+    
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.C-section3{
+    position: relative;
+    top: 1300px;
+}
+.social{
+    position: absolute;
+    left: 100px;
+    top: 50px;  
+}
+.social-h1{
+    position: absolute;
+    bottom: 195px;
+    font-size: 18px;
+}   
+.social>p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #A0A09B;
+    line-height: 35px;
+}
+.sitemap{
+    position: absolute;
+    left: 28%;
+}
+.sitemap-h{
+    font-size: 18px;
+    font-weight: 700;
+}
+.sitemap>p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #A0A09B;
+    line-height: 35px;
+}
+.office{
+    position: absolute;
+    left: 50%;
+}
+.office-h{
+    font-size: 18px;
+    font-weight: 700;
+}
+.us-c>h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+.us-c>p{
+    width: 220px;
+    height: 80px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #A0A09B;
+    line-height: 22px;
+}
+.india-c{
+    position: relative;
+    left: 350px;
+    bottom: 177px;
+}
+.india-c>h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+.india-c>p{
+    width: 250px;
+    height: 110px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #A0A09B;
+    line-height: 22px;
+}
+.extra{
+    position: absolute;
+    top: 400px;
+    padding-bottom: 100px;
+}
+.copyright{
+    width: 270px;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.terms{
+    position: relative;
+    left: 800px;
+    top: 50px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #A0A09B;
+    text-decoration: underline;
+}
+.privacy{
+    position: relative;
+    left: 900px;
+    top: 50px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #A0A09B;
+    text-decoration: underline;
+}

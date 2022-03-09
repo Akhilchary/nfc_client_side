@@ -1,0 +1,217 @@
+@font-face {
+    font-family:Gilroy ;
+    src: url('../../../fonts/Gilroy-ExtraBold.otf');
+}
+
+
+.getintouch-div{
+    height: 41vh;
+    width: 98.5vw;
+    background: #0073CB;    
+    position: relative;
+}
+
+.getintouch-con{
+    height: 16vh;
+    width: 49vw;
+
+    font-family: Gilroy;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    left: 7vw;
+    top: 13vh;
+}
+
+.getintouch-btn>button{
+    height: 11vh;
+    width: 14vw;
+    border-radius: 40px;
+    font-family: Mariupol;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 15px;
+    border:none;
+    color: #FFFFFF;
+
+    background: #059FFF;
+    border-radius: 40px;
+    position: absolute; 
+    right: 13vw;
+    top: 9vw;
+
+}
+.about-nfc{
+    position: relative;
+}
+.nfc-con{
+    position: relative;
+    right: 2vw;
+    width: fit-content;
+    margin-left: 27vw;
+}
+.nfc-img{
+    position: relative;
+    top: 14.5vh;
+    left: 4vw;
+    width: fit-content;
+}
+
+.nfc-con>p{
+    height: 30vh;
+    width: 72vw;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 54px;
+    color: #000000;
+  
+
+}
+
+.footer-div{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12vh;
+    margin-left: 4vw;
+    margin-right: 5vw;
+    height: 65vh;
+}
+.social-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.soc-p{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.soc-p>p{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    margin-bottom: 4vh;
+    color: rgba(160, 160, 155, 0.95);
+}
+
+.sitemap-p>p{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    margin-bottom: 4vh;
+    color: rgba(160, 160, 155, 0.95);
+}
+
+.title{
+    font-family: Mariupol;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 13px;
+
+    color: rgba(0, 0, 0, 0.95);
+    margin-bottom: 7vh;
+}
+.office-div{
+    display: flex;
+    flex-direction: column;
+    /* width: 30vw; */
+}
+.us-con{
+    height: 12vh;
+    width: 16vw;
+}
+.us-con>p{
+    font-family: Mariupol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    letter-spacing: 0.02em;
+
+    color: rgba(160, 160, 155, 0.95);
+}
+
+.ind-con{
+    width: 20vw;
+    height: 17vh;
+}
+
+.ind-con>p{
+    font-family: Mariupol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    letter-spacing: 0.02em;
+
+    color: rgba(160, 160, 155, 0.95);
+}
+
+.office-div>p{
+    height: fit-content;
+    
+}
+
+.off-ind-us{
+    display: flex;
+    flex-direction: row;
+
+}
+.office-us>h3{
+    margin-top: 0px;
+    margin-bottom: 11vh;
+}
+
+.office-ind>h3{
+    margin-top: 0px;
+    margin-bottom: 11vh;
+}
+
+.curr-office{
+    margin-top: 8vh;
+}
+
+.tc>hr{
+    width: 133px;
+}
+.tc{
+    margin-left: 22vw;
+    margin-right: 4vw;
+
+}
+
+
+.priv-policy{
+    width: 7vw;
+    margin-right: 4vw;
+}
+
+.bottom-con{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 4vw;
+}
+
+.cpr{
+    width: 50vw;
+}

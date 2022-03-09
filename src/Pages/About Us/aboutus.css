@@ -1,0 +1,125 @@
+
+.A-section1>h1{
+    font-size: 36px;
+    font-weight: 700;
+    position: absolute;
+    left: 60px;
+
+}
+.A-section1>img{
+    width: 500px;
+    height: 260px;
+    position: relative;
+    left: 150px;
+    top: 180px;
+}
+.content1{
+    width: 540px;
+    height: 150px;
+    position: relative;
+    left: 800px;
+    bottom: 90px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.content1>img{
+    width: 50px;
+    height: 50px;
+}
+.icons
+.idea{
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+.user{
+    position: relative;
+    top: 80px;
+    left: 150px;
+}
+.technical{
+    position: relative;
+    top: 80px;
+    left: 250px;
+}
+.A-section2>h1{
+    font-size: 36px;
+    font-weight: 700;
+    position: absolute;
+    left: 60px;
+    top: 700px;
+}
+.A-section2>img{
+    width: 500px;
+    height: 340px;
+    position: relative;
+    left: 850px;
+    top: 350px;
+}.content2{
+    width: 525px;
+    height: 195px;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+/* .A-section3{
+    height: 500px;
+    background-color: #EFF1F1;
+    position: relative;
+    top: 250px;
+}
+.A-section3>h1{
+    position: relative;
+    left: 60px;
+    top: 60px;
+    font-size: 36px;
+    font-weight: 700;
+    width: 300px;
+    height: 45px;
+}
+.card1>img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 66px;
+}
+.cards>div{
+    width: 232px;
+    height: 280px;
+    background-color: white;
+} */
+.A-section4{
+    position: relative;
+    top: 100px;
+}
+.A-section4>img{
+    position: relative;
+    left: 60px;
+    top: 150px;
+}
+.about1{
+    width: 1100px;
+    height: 190px;
+    position: relative;
+    left: 320px;
+    top: 60px;
+    line-height: 40px;
+}
+.about-content1{
+    font-size: 24px;
+    font-weight: 700;
+}
+.A-section5{
+    position: relative;
+    top: 150px;
+}
+.social-h1{
+    position: absolute;
+    bottom: 195px;
+    font-size: 18px;
+} 

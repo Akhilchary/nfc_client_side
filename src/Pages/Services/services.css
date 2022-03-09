@@ -1,0 +1,149 @@
+.section-1>img{
+  position: relative;
+  left: 555px;
+  bottom: 270px;
+}
+.section-1>span{
+  font-size: 28px;
+  font-weight: 500;
+  display: inline-block;
+  word-spacing: 10px;
+  position: relative;
+  left: 200px;
+  top: 150px;
+  text-align: center;
+}
+.section-1>h1{
+  font-size: 50px;
+  font-weight: 700;
+  width: 400px;
+  height: 130px;
+  text-align: center;
+  position: relative;
+  left: 100px;
+  top: 120px;
+}
+.blue{
+  color: #059FFF;
+}
+.card1,.card2,.card3,.card4,.card5{
+  width: 540px;
+  height: 560px;
+  box-shadow: -4px -4px 12px rgba(0, 0, 0, 0.25), 4px 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  position: relative;
+  left: 120px;
+  bottom: 200px;
+}
+.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover{
+  box-shadow: -1px -1px 8px #059FFF, 1px 1px 8px #059FFF;
+}
+.card1>img,.card2>img,.card3>img,.card4>img,.card5>img{
+  position: relative;
+  top: 40px;
+  left: 85px;
+}
+.card2{
+  position: relative;
+}
+
+/* akhil chary did */
+
+.serv-card-div{
+  margin-top: 10vh;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+
+.serv-card-img{
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3), 0px 4px 4px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 42vh;
+  width: 24vw;
+  position: absolute;
+  z-index: 1;
+  padding: 1vw;
+}
+.serv-card-img>img{
+  height: 30vh;
+  width: 21vw;
+  margin: 8px;
+}
+
+.serv-card-content{
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3), 0px 0px 4px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 70vh;
+  width: 76vw;
+  position: relative;
+  left: 16vw;
+  top: 22vh;
+  margin-bottom: 13vh;
+
+}
+.serv-card-content>p{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  color: #292929;
+  position: relative;
+  left: 10vw;
+  top: 7vh;
+  width: fit-content;
+}
+
+.serv-card-internal-con{
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  position: relative;
+  top: 15vh;
+  padding: 4.5vh;
+
+}
+
+.serv-card-div{
+  margin-top: 5vh;
+  margin-bottom: 35vh;
+  margin-left: 3vw;
+  position: relative;
+}
+
+
+.serv-card-content{
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3), 0px 0px 4px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 65vh;
+  width: 76vw;
+  position: relative;
+  left: 16vw;
+  top: 22vh;
+  margin-bottom: 13vh;
+
+}
+.serv-card-content>p{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  color: #292929;
+  position: relative;
+  left: 10vw;
+  top: 7vh;
+  width: fit-content;
+}

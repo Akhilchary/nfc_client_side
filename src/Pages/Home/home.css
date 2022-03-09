@@ -1,0 +1,1554 @@
+.landingpage_body1{
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  height: 85%;
+  
+}
+.slides{
+  width: 100%;
+}
+
+.landingpage_productname_text  {
+  position: absolute;
+  width: 84px;
+  height: 26px;
+  left: 5%;
+  top: 5%;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+  color: #000000;
+} 
+.landingpage_productdescription_text{
+  position: absolute;
+  width: 504px;
+  height: 132px;
+  left: 5%;
+  top: 12%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+.landingpage_knowmore_text{
+    position: absolute;
+  width: 202px;
+  height: 70px;
+  left: 5%;
+  top: 60%;
+  border: none;
+  text-align: center;
+  background: #2972E0;
+  border-radius: 40px;
+  color: #ffffff;
+}
+.landingpage_productimage_image{
+ position: absolute;
+ top: 10%;
+ left: 65%;
+ width: 250px;
+}
+.manual_buttons{
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  width: 80%;
+}
+.manual_buttons button{
+  background: none;
+  border: none;
+  
+}
+.manual_buttons hr{
+  position: relative;
+border: 0.8px solid #000000;
+}
+.button1{
+  position: absolute;
+width: 80px;
+height: 19px;
+left: 0%;
+top: 0%;
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #000000;
+}
+.button1_line{
+  
+}
+.button2{
+  position: absolute;
+width: 190px;
+height: 19px;
+left: 10%;
+top: 0%;
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #000000;
+}
+.button2_line{
+  
+}
+.button3{
+  position: absolute;
+width: 160px;
+height: 19px;
+left: 30%;
+top: 0%;
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #000000;
+}
+.button3_line{
+
+}
+.button4{
+  position: absolute;
+width: 100px;
+height: 19px;
+left: 47%;
+top: 0%;
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #000000;
+}
+.button4_line{
+  
+}
+/*About Us */
+.landingpage_body2{
+  position: absolute;
+  top: 95%;
+  width: 100%;
+  height: 50%;
+}
+.aboutus_text {
+  position: absolute;
+  width: 79px;
+  height: 21px;
+  left: 5%;
+  top: 10%;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  color: #2972e0;
+}
+.aboutus_textdescription {
+  position: absolute;
+  width: 821px;
+  height: 185px;
+  left: 5%;
+  top: 25%;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+/* Core Values */
+.core_values_page{
+  position: absolute;
+  top: 145%;
+  width: 100%;
+  height: 100%;
+}
+.corevalues_text {
+  position: absolute;
+  width: 140px;
+  height: 31px;
+  left: 5%;
+  top: 10%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  color: #007BFF;
+}
+
+.core_values_cards {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+}
+.core_values_card1 {
+  position: absolute;
+  width: 28%;
+  height: 80%;
+  left: 5%;
+  top: 35%;
+  background: linear-gradient(179.02deg, #FFFFFF -25%, #FBFBFB 262.7%);
+box-shadow: -32px -4px 40px rgba(227, 227, 227, 0.2);
+border-radius: 20px 20px 0px 0px;
+}
+.core_values_card2 {
+  position: absolute;
+  width: 28%;
+  height: 80%;
+  left: 35%;
+  top: 35%;
+  background: #FFFFFF;
+box-shadow: -32px -4px 40px rgba(227, 227, 227, 0.2);
+border-radius: 20px 20px 0px 0px;
+}
+.core_values_card3 {
+  position: absolute;
+  width: 28%;
+  height: 80%;
+  left: 65%;
+  top: 35%;
+  background: #FFFFFF;
+box-shadow: -32px -4px 40px rgba(227, 227, 227, 0.2);
+border-radius: 20px 20px 0px 0px;
+}
+.corevalues_card_image {
+
+}
+.corevalues_card_text {
+  position: absolute;
+width: 214px;
+height: 24px;
+left: 15%;
+top: 40%;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+}
+.ourvalues_card_textdescription{
+  position: absolute;
+width: 270px;
+height: 108px;
+left: 15%;
+top: 50%;
+
+font-family: Karla;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+/* or 150% */
+
+letter-spacing: -0.02em;
+
+color: rgba(33, 33, 33, 0.8);
+
+}
+/* Our Customers */
+.landingpage_body4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 245%;
+}
+.ourcustomers_text {
+  position: absolute;
+  width: 126px;
+  height: 21px;
+  left: 5%;
+  top: 10%;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  color: #2972e0;
+}
+.ourcustomers_textdescription{
+  position: absolute;
+width: 742px;
+height: 64px;
+left: 5%;
+top: 20%;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 32px;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+
+.ourcustomers_knowmore {
+  position: absolute;
+  width: 202px;
+  height: 70px;
+left: 80%;
+right: 0%;
+top: 25%;
+bottom: 0%;
+border: none;
+text-align: center;
+background: #2972E0;
+border-radius: 40px;
+}
+.ourcustomers_button{
+  border: none;
+  background: none;
+  color: #FFFFFF;
+  font-family: Mariupol;
+  padding-top: 12%;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 15px;
+}
+.ourcustomer_boxes{
+  position: absolute;
+  width: 84%;
+  height: 343px;
+  left: 82px;
+  top: 45%;
+
+  background: #FFFFFF;
+  box-shadow: 0px 16px 40px rgba(168, 182, 197, 0.2);
+  border-radius: 20px;
+}
+.customer_image{
+  position: absolute;
+left: 11.18%;
+right: 54.95%;
+top: 50%;
+bottom: 67.3%;
+
+}
+.customers_description{
+  position: absolute;
+left: 11.18%;
+right: 15.65%;
+top: 200%;
+bottom: 21.75%;
+
+font-family: Karla;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: -0.02em;
+
+color: #212121;
+
+}
+.landingpage_services_getintouch_button{
+  position: absolute;
+width: 202px;
+height: 70px;
+left:70%;
+top: 25%;
+background: #059FFF;
+border-radius: 40px;
+border: none;
+
+}
+.box1{
+  position: absolute;
+  left: 10%;
+  width: 25%;
+  height: 25%;
+}
+.box2{
+  position: absolute;
+  left: 30%;
+  width: 25%;
+  height: 25%;
+}
+.box3{
+  position: absolute;
+  left: 50%;
+  width: 25%;
+  height: 25%;
+}
+.box4{
+  position: absolute;
+  left: 70%;
+  width: 25%;
+  height: 25%;
+}
+
+/* Services */
+.landingpage_body5{
+  position: absolute;
+  width: 100%;
+  height: 135%;
+  top: 345%;
+  
+}
+.landingpage_Services_text{
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  left: 5%;
+  top: 5%;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  color: #2972E0;
+
+}
+.services_text_description{
+  position: absolute;
+width: 774px;
+height: 53px;
+left: 5%;
+top: 10%;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 32px;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+}
+.landingpage_serviceCardName{
+  left: 0%;
+  right: 84.54%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.landingpage_serviceCardTextdescription{
+  position: absolute;
+  display: none;
+  width: 50%;
+}
+.landingpage_serviceImage{
+  position: relative;
+  display: none;
+  left: 80%;
+  top: -40%;
+}
+.serviceCard1 {
+  position: absolute;
+  width: 80%;
+  height: 15%;
+  left: 10%;
+  right: 0%;
+  top: 25%;
+}
+.serviceCard1:hover hr,.serviceCard2:hover hr,.serviceCard3:hover hr,.serviceCard4:hover hr{
+  display: none;
+} 
+.serviceCard1:hover .landingpage_serviceCardTextdescription,.serviceCard2:hover .landingpage_serviceCardTextdescription,.serviceCard3:hover .landingpage_serviceCardTextdescription,.serviceCard4:hover .landingpage_serviceCardTextdescription {
+  position: relative;
+  display: flex;
+  top: 10%;
+  width: 80%;
+  height: 15%;
+}
+.serviceCard2 {
+  position: absolute;
+  width: 80%;
+  height: 15%;
+  left: 10%;
+  right: 0%;
+  top: 42%;
+}
+.serviceCard3 {
+  position: absolute;
+  width: 80%;
+  height: 15%;
+  left: 10%;
+  right: 0%;
+  top: 57%;
+}
+.serviceCard4 {
+  position: absolute;
+  width: 80%;
+  height: 15%;
+  left: 10%;
+  right: 0%;
+  top: 72%;
+}
+.serviceCard1:hover img,.serviceCard2:hover img,.serviceCard3:hover img,.serviceCard4:hover img{
+  display: flex;
+  animation-duration:3.5s;
+  transition: 1.5s;
+  width: 100px;
+}
+.landingpage_services_findmore_button{
+    position: absolute;
+    width: 197px;
+    height: 70px;
+    left: 1165px;
+    top: 90%;
+    border: none;
+    background: #007BFF;
+    border-radius: 40px;
+    color: #ffffff;
+  }
+
+
+/* Contact Us page */
+.landingpage_body6{
+  position: absolute;
+  top: 480%;
+  width: 100%;
+  height: 100%;
+}
+.contact_text{
+  position: absolute;
+  width: 96px;
+  height: 31px;
+  left: 5%;
+  top: 6%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  color: #000000;
+
+}
+.contact_description{
+ position: absolute;
+width: 553px;
+height: 54px;
+left: 5%;
+top: 15%;
+
+font-family: Mariupol;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* or 150% */
+letter-spacing: -0.02em;
+color: rgba(33, 33, 33, 0.8);
+}
+.conversation{
+  position: absolute;
+  width: 416px;
+  height: 44px;
+  left: 50%;
+  top: 6%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.span_conversation{
+    color: #007BFF;
+}
+.getintough{
+  position: absolute;
+  width: 202px;
+  height: 70px;
+  left: 50%;
+  top: 80%;
+} 
+.landingpage_contactus_box{
+  position: ;
+
+}
+.landingpage_contactus_fname{
+    position: relative;
+    width: 40%;
+    height: 8%;
+    left: 10%;
+    top: 5%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.landingpage_contactus_lname{
+    position: relative;
+    width: 40%;
+    height: 8%;
+    left: 10%;
+    top: 5%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+.landingpage_contactus_phone{
+    position: absolute;
+    width: 85%;
+    height: 8%;
+    left: 7%;
+    top: 18%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.landingpage_contactus_email{
+    position: absolute;
+    width: 85%;
+    height: 8%;
+    left: 7%;
+    top: 31%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.landingpage_contactus_help{
+    position: absolute;
+    width: 85%;
+    height: 40%;
+    left: 7%;
+    top: 44%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.landingpage_fname{
+  position: absolute;
+  width: 18%;
+  height: 8%;
+  top: 22%;
+  left: 50%;
+  border: none;
+  background: none;
+}
+.landingpage_lname{
+  position: absolute;
+  width: 18%;
+  height: 8%;
+  top: 22%;
+  left: 70%;
+  border: none;
+  background: none;
+}
+.landingpage_phone{
+  position: absolute;
+  width: 35%;
+  height: 8%;
+  top: 37%;
+  left: 50%;
+  border: none;
+  background: none;
+}
+.landingpage_email{
+  position: absolute;
+  width: 35%;
+  height: 8%;
+  top: 48%;
+  left: 50%;
+  border: none;
+  background: none;
+}
+.landingpage_help{
+  position: absolute;
+  width: 35%;
+  height: 8%;
+  top: 60%;
+  left: 50%;
+  border: none;
+  background: none;
+}
+.landingpage_contactus_box ::placeholder{ 
+  width: 190px;
+  height: 29px;
+  left: 728px;
+  top: 4056px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  color: grey;
+}
+.fname_line{
+  position: absolute;
+  width: 18%;
+  height: 0px;
+  left: 50%;
+  top: 30%;
+  border: 0.1px solid #3E3E3E;
+}
+
+.lname_line{
+  position: absolute;
+  width: 18%;
+  height: 0px;
+  left: 70%;
+  top: 30%;
+  border: 0.1px solid #3E3E3E;
+}
+.phone_line{
+  position: absolute;
+  width: 38%;
+  height: 0px;
+  left: 50%;
+  top: 44%;
+  border: 0.1px solid #3E3E3E;
+}
+.email_line{
+  position: absolute;
+  width: 38%;
+  height: 0px;
+  left: 50%;
+  top: 55%;
+  border: 0.1px solid #3E3E3E;
+}
+.help_line{
+  position: absolute;
+  width: 38%;
+  height: 0px;
+  left: 50%;
+  top: 68%;
+  border: 0.1px solid #3E3E3E;
+}
+.contact_page_submit{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  width: 197px;
+  height: 70px;
+  background: #007BFF;
+  border-radius: 40px;
+  border: none;
+
+}
+.line_above_footer{
+  position: relative;
+  width: 90%;
+}
+/* Footer */
+.landingpage_footer{
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  left: 0px;
+  top: 580%;
+}
+.landingpage_nfcdescription{
+  position: absolute;
+  width: 15%;
+  left: 5%;
+  top: 15%;
+}
+
+.landingpage_footer_office{
+  position: absolute;
+  left: 35%;
+  width: 15%;
+  top: 15%;
+}
+.landingpage_footer_office_text{
+  position: relative;
+  top: 10%;
+  left: 3%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.landingpage_footer_usa_text{
+  position: relative;
+  left: 3%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.landingpage_footer_usa_address{
+  position: relative;
+  left: 3%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 0.95);
+}
+.landingpage_footer_india_text{
+  position: relative;
+  left: 3%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.landingpage_footer_india_address{
+  position: relative;
+  left: 3%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 0.95);
+}
+.landingpage_footer_sitemap{
+  position: relative;
+  left: 65%;
+  width: 15%;
+  top: 15%;
+}
+.landingpage_footer_sitemap_text{
+  position: relative;
+  padding-bottom: 10%;
+  left: 3%;
+  top: 0%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+  color: #212121;
+}
+.landingpage_footer_aboutus{
+  position: relative;
+  left: 3%;
+  top: 0%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 0.95);
+}
+.landingpage_footer_services{
+  position: relative;
+  left: 3%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 0.95);
+}
+.landingpage_footer_work{
+  position: relative;
+  left: 3%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 0.95);
+}
+.landingpage_footer_careers{
+  position: relative;
+  left: 3%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 0.95);
+}
+.landingpage_footer_contact{
+  position: relative;
+  left: 3%;
+  right: 28.61%;
+  top: 93.86%;
+  bottom: 5.68%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 0.95);
+}
+.landingpage_footer_social{
+  position: absolute;
+  top: 15%;
+  width: 15%;
+  left: 80%;
+  list-style-type: none;
+}
+.landingpage_footer_social_text{
+  position: relative;
+left: 3%;
+font-family: Mariupol;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 13px;
+color: #212121;
+}
+.landingpage_footer_instagram{
+  position: relative;
+left: 3%;
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.02em;
+color: rgba(33, 33, 33, 0.95);
+}
+.landingpage_footer_facebook{
+  position: relative;
+left: 3%;
+top: 180%;
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.02em;
+color: rgba(33, 33, 33, 0.95);
+}
+.landingpage_footer_linkedin{
+  position: relative;
+left: 3%;
+top: 89.9%;
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.02em;
+
+color: rgba(33, 33, 33, 0.95);
+}
+.footer_bottom{
+  position: absolute;
+  width: 100%;
+  top: 645%;
+  display: flex;
+  padding-bottom: 2%;
+}
+.landingpage_footer_copyright{
+  position: relative;
+  left: 10%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height */
+  color: #A0A09B;
+}
+.landingpage_footer_terms{
+  position: relative;
+  left: 50%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height */
+  color: #A0A09B;
+}
+.landingpage_footer_privacy{
+  position: relative;
+  left: 60%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height */
+  color: #A0A09B;
+}
+
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+/* mobile website css */
+@media only screen and (max-device-width: 360px){
+  .landingpage_body1{
+    position: absolute;
+    width: 360px;
+    height: 220%;
+    top: 0%;
+  }
+  .landingpage_productname{
+    position: absolute;
+    width: 57px;
+    height: 16px;
+    left: 5%;
+    top: 10%;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 16px;
+    color: #007BFF;
+  }
+  .landingpage_productdescription_text{
+    position: absolute;
+    width: 278px;
+    height: 90px;
+    left: 5%;
+    top: 15%;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #212121;
+
+  }
+  .landingpage_productimage_image{
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    left: 20%;
+    top: 40%;
+
+  }
+  .landingpage_knowmore{
+    position: absolute;
+    width: 144px;
+    height: 51px;
+    left: 30px;
+    top: 30%;
+
+  }
+  .landingpage_knowmore_text{
+    position: absolute;
+    text-align: center;
+    padding: 1%;
+  }
+  
+  .manual_buttons{
+    display: none;
+  }
+  /*About Us Page*/
+  .landingpage_body2{
+  position: absolute;
+  top: 150%;
+  width: 360px;
+  height: 50%;
+  }
+  .aboutus_text{
+    position: absolute;
+    width: 70px;
+    height: 19px;
+    left: 19px;
+    top: 10%;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: -0.02em;
+    color: #007BFF;
+  }
+  .aboutus_textdescription{
+    position: absolute;
+    width: 302px;
+    height: 243px;
+    left: 20px;
+    top: 25%;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    /* or 123% */
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+  /*Core Values*/
+  .core_values_page{
+    position: absolute;
+    top: 210%;
+    width: 360px;
+    height: 100%;
+}
+  .corevalues_text{
+    position: absolute;
+    width: 80px;
+    height: 19px;
+    left: 20px;
+    top: 10%;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: -0.02em;
+    color: #007BFF;
+  }
+  .core_values_card1 {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 35%;
+  background: linear-gradient(179.02deg, #FFFFFF -25%, #FBFBFB 262.7%);
+  box-shadow: -32px -4px 40px rgba(227, 227, 227, 0.2);
+  border-radius: 20px 20px 0px 0px;
+  }
+  .core_values_card2 {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 115%;
+    background: #FFFFFF;
+  box-shadow: -32px -4px 40px rgba(227, 227, 227, 0.2);
+  border-radius: 20px 20px 0px 0px;
+  }
+  .core_values_card3 {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 195%;
+    background: #FFFFFF;
+    box-shadow: -32px -4px 40px rgba(227, 227, 227, 0.2);
+    border-radius: 20px 20px 0px 0px;
+  }
+  /* Our Customers */
+.landingpage_body4 {
+  position: absolute;
+  width: 360px;
+  height: 100%;
+  left: 0px;
+  top: 440%;
+  
+}
+.ourcustomers_text {
+  position: absolute;
+  width: 35%;
+  height: 19px;
+  left: 5%;
+  top: 10%;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  color: #007BFF;
+}
+.ourcustomers_textdescription{
+  position: absolute;
+  width: 288px;
+  height: 92px;
+  left: 5%;
+  top: 15%;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: #000000;
+
+}
+
+.landingpage_services_getintouch_button{
+  border: none;
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  background: #007BFF;
+  border-radius: 40px;
+  }
+  .ourcustomer_boxes{
+    position: relative;
+    white-space: nowrap;
+    left: 5%;
+    top: 80%;
+    width: 340px;
+    height: 70%;
+    overflow-x:scroll;
+    display: inline-block;
+  }
+  .customer_image{
+  position: absolute;
+  left: 6.18%;
+  top: 10%;
+  left: 120%;
+  }
+  .customers_description{
+    position: absolute;
+    left: 6.18%;
+    top: 180%;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
+    letter-spacing: -0.02em;
+    color: #434343;
+  }
+  .box1{
+    position: absolute;
+    left: 0%;
+    top: 15%;  
+    background: #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+  }
+  .box2{
+    position: absolute;
+    left: 100%;
+    top: 15%;
+    background: #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+  }
+  .box3{
+    position: absolute;
+    left: 200%;
+    top: 15%;
+    background: #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+  }
+  .box4{
+    position: absolute;
+    left: 300%;
+    top: 15%;
+    background: #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+  }
+    /* Services */
+    .landingpage_body5{
+      position: absolute;
+      width: 360px;
+      height: 135%;
+      top: 600%;
+    
+  }
+  .landingpage_Services_text{
+    position: absolute;
+    width: 68px;
+    height: 19px;
+    left: 5%;
+    top: 5%;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: -0.02em;
+    color: #007BFF;
+  }
+  .services_text_description{
+    position: absolute;
+    width: 279px;
+    height: 88px;
+    left: 5%;
+    top: 10%;
+    font-family: Mariupol;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    /* or 110% */
+    color: #000000;
+  }
+  .landingpage_serviceCardName{
+    position: initial;
+  left: 0%;
+  width: 100%;
+  top: 68.49%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: #000000;
+  }
+  .landingpage_serviceCardTextdescription{
+    display: none;
+  }
+  .landingpage_serviceImage{
+    display: none;
+  }
+  .serviceCard1:hover img,.serviceCard2:hover img,.serviceCard3:hover img,.serviceCard4:hover img{
+    display: none;
+  }
+  .exploremore_button {
+    position: absolute;
+    left: 8%;
+    right: 0.64%;
+    top: 88.98%;
+    bottom: 1.61%;
+  }
+  .serviceCard1:hover .landingpage_serviceCardTextdescription,.serviceCard2:hover .landingpage_serviceCardTextdescription,.serviceCard3:hover .landingpage_serviceCardTextdescription,.serviceCard4:hover .landingpage_serviceCardTextdescription {
+  
+    display: none;
+  }
+  .serviceCard1 {
+    position: absolute;
+    width: 60%;
+    height: 15%;
+    left: 30%;
+    top: 30%;
+  }
+  .serviceCard2 {
+    position: absolute;
+    width: 60%;
+    height: 15%;
+    left: 30%;
+    right: 0%;
+    top: 47%;
+  }
+  .serviceCard3 {
+    position: absolute;
+    width: 60%;
+    height: 15%;
+    left: 30%;
+    right: 0%;
+    top: 62%;
+  }
+  .serviceCard4 {
+    position: absolute;
+    width: 60%;
+    height: 15%;
+    left: 30%;
+    right: 0%;
+    top: 77%;
+  }
+  .landingpage_services_findmore_button{
+    position: absolute;
+    left: 29.44%;
+    top: 95%;
+    bottom: 10.75%;
+    height: 56.150001525878906px;
+    width: 160px;
+    left: nullpx;
+    top: nullpx;
+    border-radius: 40px;
+
+    background: #007BFF;
+    border-radius: 40px;
+  }
+  /* Contact Us */
+  .landingpage_body6{
+    position: absolute;
+    top: 770%;
+    width: 360px;
+    background: #007BFF;
+  }
+  .contact_text{
+    position: absolute;
+    width: 59px;
+    height: 19px;
+    left: 5%;
+    top: 20%;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+  .contact_description{
+    position: absolute;
+    width: 252px;
+    height: 108px;
+    left: 22px;
+    top: 30%;
+    font-family: Mariupol;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+  .contact_page_submit{
+    position: absolute;
+    left: 6.11%;
+    top: 72.48%;
+    background: #FFFFFF;
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+  }
+  .conversation{
+    display: none;
+  }
+  .landingpage_contactus_box{
+    display: none;
+  }
+  /* Footer */
+  .landingpage_footer{
+    position: absolute;
+    top: 870%;
+    width: 360px;
+    height: 300%;
+    background-color: black;
+  }
+  .landingpage_nfcdescription{
+    width: 360px;
+    position: relative;
+    top: 2%;
+    left: 5%;
+  }
+  .landingpage_footer_image{
+    position: relative;
+    left: 10%;
+    top: 10%;
+  }
+  .landingpage_footer_nfc_description{
+    position: relative;
+  width: 233px;
+  height: 66px;
+  left: 10%;
+  top: 60%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+  letter-spacing: -0.02em; 
+  color: #747474;
+  }
+  .landingpage_footer_office{
+    position: absolute;
+    top: 22%;
+    left: 5%;
+  }
+  .landingpage_footer_office_text{
+    padding-left: 5%;
+    left: 2%;
+    color: #FFFFFF;
+  }
+  .landingpage_footer_usa{
+    position: absolute;
+    width: 252px;
+    height: 187px;
+    left: 22px;
+    top: 100%;  
+    border: 1px solid rgba(116, 116, 116, 0.2);
+    box-sizing: border-box;
+    border-radius: 28px;
+  }
+  .landingpage_footer_india{
+    position: absolute;
+    width: 252px;
+    height: 231px;
+    left: 22px;
+    top: 450%;
+    border: 1px solid rgba(116, 116, 116, 0.2);
+    box-sizing: border-box;
+    border-radius: 28px;
+  }
+  .landingpage_footer_usa_text{
+  position: absolute;
+  left: 11.39%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: #F1F1F1;
+}
+.landingpage_footer_usa_address{
+  position: relative;
+  left: 3%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 0.95);
+  color: #FFFFFF;
+}
+.landingpage_footer_sitemap{
+  position: absolute;
+  top: 380%;
+  left: 10%;
+}
+.landingpage_footer_social{
+  position: absolute;
+  top: 380%;
+  left: 50%;
+  margin-left: 50%;
+}
+}
