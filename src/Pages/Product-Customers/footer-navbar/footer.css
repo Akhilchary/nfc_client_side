@@ -195,7 +195,7 @@
     width: 133px;
 }
 .tc{
-    margin-left: 22vw;
+    margin-left: 17vw;
     margin-right: 4vw;
 
 }
@@ -210,8 +210,24 @@
     display: flex;
     justify-content: space-evenly;
     margin-left: 4vw;
+    
 }
 
 .cpr{
     width: 50vw;
+    font-family: Mariupol;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 12px;
+    color: #000000;
+}
+
+.tc ,.priv-policy{
+    font-family: Mariupol;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 12px;
+    color: #A0A09B;
 }
