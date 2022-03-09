@@ -1,6 +1,6 @@
 import "./contactus.css";
 import Navbar from "../../Components/navbar/navbar";
-import nfcTag from "../../Components/NFC-TAG/nfc_tag";
+//import nfcTag from "../../Components/NFC-TAG/nfc_tag";
 import Logo from "../../Images/logo.png";
 
 function contactUs(){
