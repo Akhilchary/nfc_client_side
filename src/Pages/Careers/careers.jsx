@@ -1,7 +1,13 @@
 import React from "react";
+import "./careers.css"
 import holding from "../../Images/holding.png";
 import logo1 from "../../Images/image 4.png";
 import Navbar from '../../Components/navbar/navbar';
+import offer from "../../Images/offer.svg";
+import app from "../../Images/app.svg";
+import search from "../../Images/search.svg";
+import decision from "../../Images/decision.svg";
+import interview from "../../Images/interview.svg";
 
 function Careers(){
     return(
@@ -14,25 +20,57 @@ function Careers(){
                     integer nulla senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh et 
                     pulvinar sem arcu integer nulla senectus.</span>
                 </div>
+                <button className="open">Open Roles</button>
                 
                 <img className="holding" src={holding} alt=""  />
             </div>
             <div className="C-section2">
+                <span className="hiring">Our Hiring Process</span>
+                <h1 className="hiring-content">lmao imessed up retty bad loreum be like lets sleep and im sure epsum </h1>
+                <div className="C-card1">
+                    <img src={app} />
+                    <h3>1.Application Submission</h3>
+                    <p className="card-content">loreum epsum loreum epsum lorem loreum loreum lorem lorem loremloreum epsum loreum epsum lorem loreum loreum lorem lorem lorem</p>
+                </div>
+                <div className="C-card2">
+                    <img src={interview} />
+                    <h3>2. Application Review</h3>
+                    <p className="card-content">loreum epsum loreum epsum lorem loreum loreum lorem lorem loremloreum epsum loreum epsum lorem loreum loreum lorem lorem lorem</p>
+                </div>
+                <div className="C-card3">
+                <img src={search} />
+                    <h3>3. Interview</h3>
+                    <p className="card-content">loreum epsum loreum epsum lorem loreum loreum lorem lorem loremloreum epsum loreum epsum lorem loreum loreum lorem lorem lorem</p>
+                </div>
+                <div className="C-card4">
+                <img src={decision} />
+                    <h3>4. Decision</h3>
+                    <p className="card-content">loreum epsum loreum epsum lorem loreum loreum lorem lorem loremloreum epsum loreum epsum lorem loreum loreum lorem lorem lorem</p>
+                </div>
+                <div className="C-card5">
+                <img src={offer} />
+                    <h3>5. Offer</h3>
+                    <p className="card-content">loreum epsum loreum epsum lorem loreum loreum lorem lorem loremloreum epsum loreum epsum lorem loreum loreum lorem lorem lorem</p>
+                </div>
+            </div>
+            <div className="C-section3">
                 <h1 className="roles">Open Roles</h1>
-                <div className="location">
+                {/* <div className="location">
                     <span>ALL</span>
                     <span>USA</span>
                     <span>India</span>
-                </div> <br /> <br /><br />
+                </div> <br /> <br /><br /> */}
                 <div className="product">
                     <hr/><br /><br />
                     <span>Product Designer Intern</span><br /> <br /><br />
                     <hr/><br /><br /> 
-                    <span>Product Designer</span><br /> <br /><br />
-                    <hr/><br /><br />
                     <span>Blockchain Developer</span><br /> <br /><br />
+                    <hr/><br /><br />
+                    <span>UX Designer</span><br /> <br /><br />
                     <hr/><br /> <br />
-                    <button className="view">View more</button>
+                    <span>Full Stack Developer</span><br /> <br /><br />
+                    <hr/><br /> <br />
+                    {/* <button className="view">View more</button> */}
                 </div>
                 
                     <img className="logo1" src={logo1}  alt=""   />
@@ -41,7 +79,7 @@ function Careers(){
                     thorough understanding of business, technology, and the balance between the two. </span>
                 </div>
             </div>
-            <div className="C-section3">
+            <div className="C-section4">
                 <div className="social">
                     <h1 className="social-h1">social</h1><br />
                     <p>linkedin</p>
