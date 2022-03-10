@@ -28,27 +28,27 @@ function Careers(){
                 <span className="hiring">Our Hiring Process</span>
                 <h1 className="hiring-content">lmao imessed up retty bad loreum be like lets sleep and im sure epsum </h1>
                 <div className="C-card1">
-                    <img src={app} />
+                    <img src={app}  alt=" " />
                     <h3>1.Application Submission</h3>
                     <p className="card-content">loreum epsum loreum epsum lorem loreum loreum lorem lorem loremloreum epsum loreum epsum lorem loreum loreum lorem lorem lorem</p>
                 </div>
                 <div className="C-card2">
-                    <img src={interview} />
+                    <img src={interview} alt=""/>
                     <h3>2. Application Review</h3>
                     <p className="card-content">loreum epsum loreum epsum lorem loreum loreum lorem lorem loremloreum epsum loreum epsum lorem loreum loreum lorem lorem lorem</p>
                 </div>
                 <div className="C-card3">
-                <img src={search} />
+                <img src={search} alt=""/>
                     <h3>3. Interview</h3>
                     <p className="card-content">loreum epsum loreum epsum lorem loreum loreum lorem lorem loremloreum epsum loreum epsum lorem loreum loreum lorem lorem lorem</p>
                 </div>
                 <div className="C-card4">
-                <img src={decision} />
+                <img src={decision} alt=""/>
                     <h3>4. Decision</h3>
                     <p className="card-content">loreum epsum loreum epsum lorem loreum loreum lorem lorem loremloreum epsum loreum epsum lorem loreum loreum lorem lorem lorem</p>
                 </div>
                 <div className="C-card5">
-                <img src={offer} />
+                <img src={offer} alt=""/>
                     <h3>5. Offer</h3>
                     <p className="card-content">loreum epsum loreum epsum lorem loreum loreum lorem lorem loremloreum epsum loreum epsum lorem loreum loreum lorem lorem lorem</p>
                 </div>
