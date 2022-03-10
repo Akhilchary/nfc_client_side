@@ -60,39 +60,39 @@ function Aboutus(){
                 <h1>Domain Expertise</h1>
                 <div className="cards">
                     <div className="card1">
-                        <img src={brokeage} />
+                        <img src={brokeage} alt=""/>
                         <p>Banking Brokeage</p>
                     </div>
                     <div className="">
-                        <img src={telecom} />
+                        <img src={telecom} alt=""/>
                         <p>Telecom</p>
                     </div>
                     <div className="">
-                        <img src={pharma} />
+                        <img src={pharma} alt=""/>
                         <p>Pharma & Health care</p>
                     </div>
                     <div className="">
-                        <img src={technology} />
+                        <img src={technology} alt=""/>
                         <p>Technology</p>
                     </div>
                     <div className="">
-                        <img src={insurance} />
+                        <img src={insurance} alt=""/>
                         <p>Insurance</p>
                     </div>
                     <div className="">
-                        <img src={government} />
+                        <img src={government} alt=""/>
                         <p>Government</p>
                     </div>
                     <div className="">
-                        <img src={facility} />
+                        <img src={facility} alt=""/>
                         <p>Facility Management</p>
                     </div>
                     <div className="">
-                        <img src={supply} />
+                        <img src={supply} alt=""/>
                         <p>Supply Chain</p>
                     </div>
                     <div className="">
-                        <img src={events} />
+                        <img src={events} alt=""/>
                         <p>Events Managements</p>
                     </div>
 
