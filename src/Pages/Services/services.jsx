@@ -1,14 +1,14 @@
 import React from "react";
 import "../Services/services.css";
-import logo from "../../Images/image 4.png";
+// import logo from "../../Images/image 4.png";
 import image1 from "../../Images/Rectangle 14.png";
 import service1 from "../../Images/Rectangle 294.png";
 import service2 from "../../Images/Rectangle 295.png";
 import service3 from "../../Images/Rectangle 296.png";
 import service4 from "../../Images/Rectangle 297.png";
 import service5 from "../../Images/Rectangle 298.png";
-import image2 from "../../Images/Development.png";
-import callimg from "../../Images/call.png";
+// import image2 from "../../Images/Development.png";
+// import callimg from "../../Images/call.png";
 import ServicesCard  from "./servicesCard";
 import Navbar from '../../Components/navbar/navbar';
 import aboutimg1 from "../../Images/aboutimg1.png";
@@ -31,34 +31,34 @@ function Services(){
                 <div className="card1">
                     <img src={service1}  alt=""  />
                     <ul><b>BACKEND SERVICES</b>
-                        <li>Cloud computing</li>
-                        <li>Oracle application</li>
+                         <li>Cloud computing</li>
+                         <li>Oracle application</li>
                     </ul>
                 </div>
                 <div className="card2">
                     <img src={service2}  alt="" />
                     <ul><b>WEB & APP DEVELOPMENT</b>
-                        <li>Mobile app development</li>
-                        <li>Enterprizes applications using Java,.net & PHP</li>
+                         <li>Mobile app development</li>
+                         <li>Enterprizes applications using Java,.net & PHP</li>
                     </ul>
                 </div>
                 <div className="card3">
                     <img src={service3} alt=""  />
                     <ul><b>DATA ENGINERRING</b>
-                        <li>Big Data</li>
-                        <li>SAP</li>
+                         <li>Big Data</li>
+                         <li>SAP</li>
                     </ul>
                 </div>
                 <div className="card4">
                     <img src={service4} alt=""  />
                     <ul><b>TRAINING</b>
-                        <li>Placement and training</li>
+                         <li className="place">Placement and training</li>
                     </ul>
                 </div>
                 <div className="card5">
                     <img src={service5} alt=""  />
                     <ul><b>COMMUNICATION</b>
-                        <li>NFC & RFID services</li>
+                         <li>NFC & RFID services</li>
                     </ul>
                 </div>
             </div>
