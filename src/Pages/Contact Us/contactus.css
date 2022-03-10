@@ -1,35 +1,82 @@
 .body1{
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 85%;
     left: 0px;
     top: 15%;
-    background: #C1C1C1;
+    
 }
-.body1_text{
-    position: absolute;
-    left: 25%;
-    right: 25%;
-    top: 10.09%;
-    bottom: 78.47%;
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 54px;
-    line-height: 65px;
-    text-align: center;
-    letter-spacing: -0.02em;
-    color: #FFFFFF;
+.contactus_landing_text{
+  position: absolute;
+  left: 43px;
+  top: 3.84%;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 65px;
+  letter-spacing: -0.02em;
+  color: #007BFF;
 }
-/* .semicircle{
-    position: absolute;
-width: 1672px;
-height: 1497px;
-left: -115px;
-top: 5px;
-
-background: #059FFF;
-} */
+.contactus_landing_textdescription{
+  position: absolute;
+  width: 601px;
+  height: 147px;
+  left: 43px;
+  top: 15%;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.contactus_landing_textdescription1{
+  position: absolute;
+  width: 551px;
+  height: 100px;
+  left: 43px;
+  top: 45%;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  /* or 125% */
+  color: #000000;
+}
+.contactus_landing_image{
+  position: absolute;
+  width: 413px;
+  height: 472px;
+  left: 953px;
+  top: 15%;
+  border-radius: 10px;
+}
+.contactus_landing_call{
+  position: absolute;
+  width: 5%;
+  left: 15%;
+  top: 75%;
+  background: #250000;
+  transform: rotate(38.02deg);
+}
+.contactus_landing_at_the_rate{
+  position: absolute;
+  width: 5%;
+  left: 25%;
+  top: 75%;
+  background: #250000;
+  transform: rotate(-18.36deg);
+}
+.contactus_landing_messege{
+  position: relative;
+  width: 5%;
+  left: 5%;
+  top: 75%;
+  background: #250000;
+}
 .body2{
     position: absolute;
     top: 115%;
@@ -102,7 +149,8 @@ background: #059FFF;
     font-size: 18px;
     line-height: 25px;
     padding-top: 15%;
-    padding-bottom: %;
+    left: 2%;
+    top: 1%;
     padding-left: 3%;
     color: #FFFFFF;
 }
@@ -161,18 +209,23 @@ background: #059FFF;
     top: 31%;
     background: #0073CB;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 10px;
+    border-radius: 10px;
 }
 .contactus_help{
     position: absolute;
     border: none;
     width: 85%;
-    height: 40%;
+    height: 10%;
+    padding-bottom: 30%;
     left: 7%;
     top: 44%;
     background: #0073CB;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+}
+.contactus_help ::placeholder{
+  position: absolute;
+  top: 0%;
 }
 .contactus_send_button{
     position: absolute;
@@ -193,22 +246,18 @@ border-radius: 10px;
     height: 100%;
 }
 .contactus_ourlocation_text{
-position: relative;
-width: 249px;
-height: 48px;
-left: 5%;
-top: 10%;
-font-family: Gilroy;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 48px;
-text-align: center;
-letter-spacing: 0.02em;
-
-color: #000000;
-
-
+  position: relative;
+  width: 50%;
+  height: 48px;
+  left: 5%;
+  top: 10%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #000000;
 }
 .contactus_usa_box{
     position: absolute;
@@ -546,6 +595,7 @@ color: #000000;
 .Contactus_footer_copyright{
   position: relative;
   left: 5%;
+  color: #000000;
   font-family: Mariupol;
   font-style: normal;
   font-weight: 500;
@@ -601,20 +651,17 @@ color: #000000;
     height: 524px;
     left: 0px;
     top: 20%;  
-    background: #6D6D6D;
+    
     }
-    .body1_text{
-        display: none;
+    .navbar-logo1{
+      position: absolute;
+      left: 5%;
+      right: 75.56%;
     }
-    /* .semicircle{
-        position: absolute;
-    width: 1672px;
-    height: 1497px;
-    left: -115px;
-    top: 5px;
-
-    background: #059FFF;
-    } */
+    .nav-item{
+      display: none;
+    }
+  
     .body2{
         position: absolute;
         width: 360px;
@@ -624,36 +671,15 @@ color: #000000;
         background: #FFFFFF;
     }
     .body2_text1{
-        position: absolute;
-        left: 5%;
-        top: 8%;
-        font-family: Gilroy;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 12px;
-        line-height: 140%;
-        /* identical to box height, or 17px */
-        color: #000000;
+        display: none;
     }
     .body2_text2{
-        position: absolute;
-        left: 5%;
-        top: 15%;
-        font-family: Mariupol;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 8px;
-        line-height: 27px;
-        /* identical to box height, or 338% */
-        letter-spacing: -0.02em;
-        /* Indigo */
-        color: #0E0E2C;
-
+        display: none;
     }
     .contactus_conversation{
         position: absolute;
         left: 5%;
-        top: 25%;
+        top: 15%;
         font-family: Gilroy;
         font-style: normal;
         font-weight: bold;
@@ -667,7 +693,7 @@ color: #000000;
         width: 287px;
         height: 349px;
         left: 37px;
-        top: 40%;       
+        top: 35%;       
         background: #FFFFFF;
         box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3), 0px 0px 4px 5px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
@@ -680,7 +706,8 @@ color: #000000;
         font-size: 8px;
         line-height: 25px;
         padding-top: 15%;
-        padding-bottom: %;
+        left: 2%;
+        top: 1%;
         padding-left: 3%;
         color: #FFFFFF;
     }

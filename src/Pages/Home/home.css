@@ -146,14 +146,14 @@ color: #000000;
 }
 .aboutus_text {
   position: absolute;
-  width: 79px;
+  width: 106px;
   height: 21px;
   left: 5%;
-  top: 10%;
+  top: 40%;
   font-family: Rubik;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 21px;
   letter-spacing: -0.02em;
   color: #2972e0;
@@ -162,15 +162,17 @@ color: #000000;
   position: absolute;
   width: 821px;
   height: 185px;
-  left: 5%;
-  top: 25%;
-  font-family: Ubuntu;
+  left: 35%;
+  top: 40%;
+  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 37px;
-  letter-spacing: -0.02em;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 27px;
+  /* or 129% */
+  letter-spacing: 0.03em;
   color: #000000;
+
 }
 /* Core Values */
 .core_values_page{
@@ -181,17 +183,21 @@ color: #000000;
 }
 .corevalues_text {
   position: absolute;
-  width: 140px;
+  width: 128px;
   height: 31px;
   left: 5%;
   top: 10%;
-  font-family: Gilroy;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: -0.02em;
-  color: #007BFF;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+color: #007BFF;
+
 }
 
 .core_values_cards {
@@ -226,49 +232,39 @@ border-radius: 20px 20px 0px 0px;
   left: 65%;
   top: 35%;
   background: #FFFFFF;
-box-shadow: -32px -4px 40px rgba(227, 227, 227, 0.2);
-border-radius: 20px 20px 0px 0px;
+  box-shadow: -32px -4px 40px rgba(227, 227, 227, 0.2);
+  border-radius: 20px 20px 0px 0px;
 }
 .corevalues_card_image {
 
 }
 .corevalues_card_text {
   position: absolute;
-width: 214px;
-height: 24px;
-left: 15%;
-top: 40%;
-
-font-family: Rubik;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-/* identical to box height */
-
-
-color: #000000;
-
-
+  width: 214px;
+  height: 24px;
+  left: 15%;
+  top: 40%;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
 }
 .ourvalues_card_textdescription{
   position: absolute;
-width: 270px;
-height: 108px;
-left: 15%;
-top: 50%;
-
-font-family: Karla;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 27px;
-/* or 150% */
-
-letter-spacing: -0.02em;
-
-color: rgba(33, 33, 33, 0.8);
-
+  width: 270px;
+  height: 108px;
+  left: 15%;
+  top: 50%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* or 150% */
+  letter-spacing: 0.02em;
+  color: rgba(33, 33, 33, 0.8);
 }
 /* Our Customers */
 .landingpage_body4 {
@@ -280,59 +276,50 @@ color: rgba(33, 33, 33, 0.8);
 }
 .ourcustomers_text {
   position: absolute;
-  width: 126px;
+  width: 176px;
   height: 21px;
   left: 5%;
   top: 10%;
-  font-family: Rubik;
+  font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 21px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
   letter-spacing: -0.02em;
-  color: #2972e0;
+  color: #007BFF;
 }
 .ourcustomers_textdescription{
   position: absolute;
-width: 742px;
-height: 64px;
-left: 5%;
-top: 20%;
-
-font-family: Ubuntu;
+  width: 586px;
+  height: 64px;
+  left: 5%;
+  top: 20%;
+  font-family: Roboto;
+font-size: 21px;
 font-style: normal;
-font-weight: 500;
-font-size: 28px;
-line-height: 32px;
-letter-spacing: -0.02em;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0.02em;
+text-align: left;
 
-color: #000000;
 }
 
-.ourcustomers_knowmore {
-  position: absolute;
-  width: 202px;
-  height: 70px;
-left: 80%;
-right: 0%;
-top: 25%;
-bottom: 0%;
-border: none;
-text-align: center;
-background: #2972E0;
-border-radius: 40px;
-}
-.ourcustomers_button{
-  border: none;
-  background: none;
-  color: #FFFFFF;
-  font-family: Mariupol;
-  padding-top: 12%;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 15px;
-}
+
+.landingpage_ourcustomers_findmore_button{
+    position: absolute;
+    width: 197px;
+    height: 70px;
+    left: 1165px;
+    top: 20%;
+    border: none;
+    background: #007BFF;
+    border-radius: 40px;
+    color: #ffffff;
+  }
+  .landingpage_ourcustomers_findmore_button:hover{
+    background-color: black;
+  }
 .ourcustomer_boxes{
   position: absolute;
   width: 84%;
@@ -346,28 +333,29 @@ line-height: 15px;
 }
 .customer_image{
   position: absolute;
-left: 11.18%;
-right: 54.95%;
-top: 50%;
-bottom: 67.3%;
+  left: 11.18%;
+  right: 54.95%;
+  top: 50%;
+  bottom: 67.3%;
 
 }
 .customers_description{
   position: absolute;
-left: 11.18%;
-right: 15.65%;
-top: 200%;
-bottom: 21.75%;
-
-font-family: Karla;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-letter-spacing: -0.02em;
-
-color: #212121;
-
+  width: 229px;
+  left: 11.18%;
+  top: 200%;
+  height: 97px;
+  width: 229px;
+  left: 35px;
+  top: 171px;
+  border-radius: nullpx;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
 .landingpage_services_getintouch_button{
   position: absolute;
@@ -419,14 +407,17 @@ border: none;
   height: 24px;
   left: 5%;
   top: 5%;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 24px;
-  /* identical to box height */
-  letter-spacing: -0.02em;
-  color: #2972E0;
+ font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+color: #2972E0;
+
 
 }
 .services_text_description{
@@ -436,19 +427,19 @@ height: 53px;
 left: 5%;
 top: 10%;
 
-font-family: Ubuntu;
+font-family: 'Roboto';
 font-style: normal;
-font-weight: 500;
-font-size: 28px;
-line-height: 32px;
-letter-spacing: -0.02em;
+font-weight: 400;
+font-size: 21px;
+line-height: 25px;
+letter-spacing: 0.02em;
 
 color: #000000;
+
 
 }
 .landingpage_serviceCardName{
   left: 0%;
-  right: 84.54%;
   font-family: Gilroy;
   font-style: normal;
   font-weight: 600;
@@ -460,11 +451,21 @@ color: #000000;
 .landingpage_serviceCardTextdescription{
   position: absolute;
   display: none;
-  width: 50%;
+  width: 250px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 25px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
 }
 .landingpage_serviceImage{
   position: relative;
   display: none;
+  width: 150px;
   left: 80%;
   top: -40%;
 }
@@ -766,22 +767,26 @@ border-radius: 10px;
 .landingpage_footer{
   position: absolute;
   width: 100%;
-  height: 60%;
+  height: 80%;
   left: 0px;
   top: 580%;
+  background: #1B1C1D;
 }
 .landingpage_nfcdescription{
   position: absolute;
   width: 15%;
   left: 5%;
-  top: 15%;
+  top: 10%;
+  color: rgba(116, 116, 116, 0.95);
 }
-
+.line_above_footer{
+  display: none;
+}
 .landingpage_footer_office{
   position: absolute;
   left: 35%;
   width: 15%;
-  top: 15%;
+  top: 10%;
 }
 .landingpage_footer_office_text{
   position: relative;
@@ -793,31 +798,61 @@ border-radius: 10px;
   font-size: 14px;
   line-height: 13px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: #FFFFFF;
+}
+.landingpage_footer_usa{
+  position: absolute;
+  left: 3%;
+right: 0%;
+top: 120%;
+bottom: 0%;
+width: 305px;
+height: 180px;
+background: #1B1C1D;
+border: 1px solid rgba(116, 116, 116, 0.2);
+box-sizing: border-box;
+border-radius: 28px;
 }
 .landingpage_footer_usa_text{
   position: relative;
   left: 3%;
-  font-family: Gilroy;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
-  letter-spacing: 0.02em;
-  color: #212121;
+  
+  width: 34.55px;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.02em;
+
+color: #F1F1F1;
+
 }
 .landingpage_footer_usa_address{
   position: relative;
   left: 3%;
-  font-family: Mariupol;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  /* or 122% */
-  letter-spacing: 0.02em;
-  color: rgba(33, 33, 33, 0.95);
+  font-family: 'Mariupol';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* or 138% */
+
+letter-spacing: -0.02em;
+
+color: rgba(116, 116, 116, 0.95);
+
+}
+.landingpage_footer_india{
+  position: absolute;
+  width: 305px;
+  height: 180px;
+top: 450%;
+left: 3%;
+background: #1B1C1D;
+border: 1px solid rgba(116, 116, 116, 0.2);
+box-sizing: border-box;
+border-radius: 28px;
 }
 .landingpage_footer_india_text{
   position: relative;
@@ -829,82 +864,85 @@ border-radius: 10px;
   line-height: 22px;
   /* identical to box height */
   letter-spacing: 0.02em;
-  color: #212121;
 }
 .landingpage_footer_india_address{
   position: relative;
   left: 3%;
-  font-family: Mariupol;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  /* or 122% */
-  letter-spacing: 0.02em;
-  color: rgba(33, 33, 33, 0.95);
+  font-family: 'Mariupol';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* or 138% */
+
+letter-spacing: -0.02em;
+
+color: rgba(116, 116, 116, 0.95);
+
 }
 .landingpage_footer_sitemap{
   position: relative;
   left: 65%;
   width: 15%;
-  top: 15%;
+  top: 10%;
 }
 .landingpage_footer_sitemap_text{
   position: relative;
   padding-bottom: 10%;
   left: 3%;
   top: 0%;
-  font-family: Mariupol;
+  font-family: 'Mariupol';
   font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 13px;
-  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 17px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
 }
 .landingpage_footer_aboutus{
   position: relative;
   left: 3%;
   top: 0%;
-  font-family: Gilroy;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0.02em;
-  color: rgba(33, 33, 33, 0.95);
+  font-family: 'Mariupol';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 15px;
+
+color: #747474;
 }
 .landingpage_footer_services{
   position: relative;
   left: 3%;
-  font-family: Gilroy;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0.02em;
-  color: rgba(33, 33, 33, 0.95);
+  font-family: 'Mariupol';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 15px;
+
+color: #747474;
 }
 .landingpage_footer_work{
   position: relative;
   left: 3%;
-  font-family: Gilroy;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0.02em;
-  color: rgba(33, 33, 33, 0.95);
+  font-family: 'Mariupol';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 15px;
+
+color: #747474;
 }
 .landingpage_footer_careers{
   position: relative;
   left: 3%;
-  font-family: Gilroy;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0.02em;
-  color: rgba(33, 33, 33, 0.95);
+  font-family: 'Mariupol';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 15px;
+
+color: #747474;
 }
 .landingpage_footer_contact{
   position: relative;
@@ -912,17 +950,18 @@ border-radius: 10px;
   right: 28.61%;
   top: 93.86%;
   bottom: 5.68%;
-  font-family: Gilroy;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0.02em;
-  color: rgba(33, 33, 33, 0.95);
+  font-family: 'Mariupol';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 15px;
+
+color: #747474;
+
 }
 .landingpage_footer_social{
   position: absolute;
-  top: 15%;
+  top: 10%;
   width: 15%;
   left: 80%;
   list-style-type: none;
@@ -930,88 +969,90 @@ border-radius: 10px;
 .landingpage_footer_social_text{
   position: relative;
 left: 3%;
-font-family: Mariupol;
+font-family: 'Mariupol';
 font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 13px;
-color: #212121;
+font-weight: 700;
+font-size: 18px;
+line-height: 17px;
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+
 }
 .landingpage_footer_instagram{
   position: relative;
 left: 3%;
-font-family: Gilroy;
+font-family: 'Mariupol';
 font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 22px;
-letter-spacing: 0.02em;
-color: rgba(33, 33, 33, 0.95);
+font-weight: 500;
+font-size: 16px;
+line-height: 15px;
+
+color: #747474;
 }
 .landingpage_footer_facebook{
   position: relative;
 left: 3%;
 top: 180%;
-font-family: Gilroy;
+font-family: 'Mariupol';
 font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 22px;
-letter-spacing: 0.02em;
-color: rgba(33, 33, 33, 0.95);
+font-weight: 500;
+font-size: 16px;
+line-height: 15px;
+
+color: #747474;
 }
 .landingpage_footer_linkedin{
   position: relative;
 left: 3%;
 top: 89.9%;
-font-family: Gilroy;
+font-family: 'Mariupol';
 font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 22px;
-letter-spacing: 0.02em;
+font-weight: 500;
+font-size: 16px;
+line-height: 15px;
 
-color: rgba(33, 33, 33, 0.95);
+color: #747474;
+
 }
 .footer_bottom{
   position: absolute;
   width: 100%;
-  top: 645%;
+  top: 650%;
   display: flex;
-  padding-bottom: 2%;
 }
 .landingpage_footer_copyright{
   position: relative;
   left: 10%;
-  font-family: Mariupol;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 12px;
-  /* identical to box height */
-  color: #A0A09B;
+  font-family: 'Mariupol';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 13px;
+
+color: #747474;
 }
 .landingpage_footer_terms{
   position: relative;
   left: 50%;
-  font-family: Mariupol;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 12px;
-  /* identical to box height */
-  color: #A0A09B;
+  font-family: 'Mariupol';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 13px;
+
+color: #747474;
 }
 .landingpage_footer_privacy{
   position: relative;
   left: 60%;
-  font-family: Mariupol;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 12px;
-  /* identical to box height */
-  color: #A0A09B;
+  font-family: 'Mariupol';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 13px;
+
+color: #747474;
 }
 
 /* mobile website css */

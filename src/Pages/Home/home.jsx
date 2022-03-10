@@ -15,7 +15,7 @@ import Navbar from "../../Components/navbar/navbar";
 /*landing page slider End*/
 
 function Card(props){
-    return(
+    return( 
         <>
             <img class="corevalues_card_image" src={props.image} alt='' />
             <p class="corevalues_card_text">{props.text}</p>
@@ -114,7 +114,7 @@ function Home(){
             <div className="landingpage_body2">
                 <div class="landingpage_aboutus_page">
                 <p class="aboutus_text">About Us</p>
-                <p class="aboutus_textdescription">lmao imessed up retty bad loreum be like lets sleep and im sure epsum is alone and typing dumb shit like this.lmao imessed up retty bad loreum be like lets sleep and im sure epsum is alone and typing dumb shit like this.lmao </p>
+                <p class="aboutus_textdescription">We, at NFC solutions provide software as well as staffing augmentation to enhance your company's information strategy. This helps in the perfect assimilation of both the business and technological aspects of the company. </p>
                 </div>
             </div>
             <div className="landingpage_body3"></div>
@@ -123,22 +123,22 @@ function Home(){
                 <div class="core_values_cards">
                 
                     <div class="core_values_card1">
-                        <Card   text="Product Development" textdescription="Near field communication technologies is where we excel and specialise in. We make sure that we are the best at it." />
+                        <Card   text="Product Development" textdescription="Developing products is more than a process. It is an art form, and we strive to perfect it, and make sure that we achieve exactly what we set out to do. " />
                     </div>
                     <div class="core_values_card2">
-                        <Card   text="NFC Solutions" textdescription="Reliable contactless technology for ticketing, payment, and loyalty along with logical and physical access is what we offer you." />
+                        <Card   text="NFC Solutions" textdescription="We provide trustworthy contactless payment services for our users. Quick and easy transactions that remove hassle and make monetary transfers effortless." />
                     </div>
                     <div class="core_values_card3">
-                        <Card   text="Authenticity Check" textdescription="To identify the right candidates, Authentic Checks to check profiles/address verification for both pre-employment and post-employment, which we shall provide." />
+                        <Card   text="Authenticity Check" textdescription="Identifying the right candidates for employment is very important, and checking for authentic documentation is key to doing so. We make sure that this is done at the very highest level. " />
                     </div>
                       
                 </div>
             </div>
             <div className="landingpage_body4">
                 <p class="ourcustomers_text">Our customers</p>
-                <p class="ourcustomers_textdescription">lmao imessed up retty bad loreum be like lets sleep and im sure epsum is alone and typing dumb shit like this.</p>
-                <div className="landingpage_services_getintouch">
-                        <button className="landingpage_services_getintouch_button">Get in touch</button>
+                <p class="ourcustomers_textdescription">We believe in being connected to our customers. We provide only the very best we have, and not less, as we prioritize our customers over anything else.</p>
+                <div className="landingpage_ourcustomers_findmore">
+                        <button className="landingpage_ourcustomers_findmore_button">Find More</button>
                     </div>
                 <div className="ourcustomer_boxes">
                     <div className="box1">

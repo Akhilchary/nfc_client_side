@@ -2,6 +2,10 @@ import "./contactus.css";
 import Navbar from "../../Components/navbar/navbar";
 //import nfcTag from "../../Components/NFC-TAG/nfc_tag";
 import Logo from "../../Images/logo.png";
+import Phone from "../../Images/unsplash_QLqNalPe0RA.png";
+// import call from "../../Images/";
+// import At_the_rate from "../../Images/at_the_rate";
+// import messege from "../../Images/mesege";
 
 function contactUs(){
     return(
@@ -10,12 +14,13 @@ function contactUs(){
                 <Navbar />
             </div>
             <div className="body1">
-                <div className="semicicle">
-                    <p className="body1_text">Lorem ipsum dolor sit amet,consectetur adipiscing elitm ipsum dolor sit.</p>
-                    <div className="semicircle">
-                        {/* <img class="semicricle" src={Semicircle} alt="" /> */}
-                    </div>
-                </div>
+                <h1 class="contactus_landing_text">Contact Us</h1>
+                <p className="contactus_landing_textdescription">lmao imessed up retty bad loreum be like lets sleep and im sure epsum </p>
+                <p className="contactus_landing_textdescription1">lmao imessed up retty bad loreum be like lets sleep and im sure epsum is alone and typin lmao imessed up retty bad loreum be like lets sleep and im sure epsum is alone and typin </p>
+                <img class="contactus_landing_image" src={Phone} alt="" />
+                {/* <img src={call} alt="" className="contactus_landing_call" /> */}
+                {/* <img src={At_the_rate} alt="" className="contactus_landing_at_the_rate" /> */}
+                {/* <img src={messege} alt="" className="contactus_landing_messege" /> */}
             </div> 
             <div className="body2">
                 <p className="body2_text1">Lorem ipsum dolor sit amet</p>
