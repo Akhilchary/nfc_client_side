@@ -9,19 +9,23 @@ import service4 from "../../Images/Rectangle 297.png";
 import service5 from "../../Images/Rectangle 298.png";
 import image2 from "../../Images/Development.png";
 import callimg from "../../Images/call.png";
-
 import ServicesCard  from "./servicesCard";
-
 import Navbar from '../../Components/navbar/navbar';
+import aboutimg1 from "../../Images/aboutimg1.png";
+import phone from "../../Images/phone.png"
 
 function Services(){
     return(
         <div>
             <Navbar />
             <div className="section-1">
-                <span>Our</span><span className="blue">Services</span>
-                <h1>Always there for our customers</h1>
+                <div className="our animate__animated animate__slideInLeft">
+                    <span>Our</span><span className="blue">Services</span>
+                </div>
+                
+                <h1 className="animate__animated animate__slideInLeft">We deliver innovative digital solutions</h1>
                 <img src={image1}  alt=""  />
+                <button className="findmore animate__animated animate__slideInUp">Find more</button>
             </div>
             <div className="section-2">
                 <div className="card1">
@@ -53,41 +57,41 @@ function Services(){
                 </div>
                 <div className="card5">
                     <img src={service5} alt=""  />
-                    <ul><b>COMMUNICATIONS</b>
+                    <ul><b>COMMUNICATION</b>
                         <li>NFC & RFID services</li>
                     </ul>
                 </div>
             </div>
-            <div className="section2">
-                <img src={image2}  alt="" />
-                <div className="section2-1">
-                    <span>Loren ipsum dolor sit amet,consectetur  </span>
+            <div className="section-3">
+                <img src={aboutimg1}  alt="" />
+                <div className="section3-1">
+                    <div className="about-c">
+                        <span>We provide you with what we need because the results of the work are important to us.   </span>
+                    </div>
+                    
                 </div>
             </div>
            
-            <div className="section4">
-                <span>Loren ipsum dolor sit amet, consectetur  </span>
-                <button>Contact us</button>
-                <img src={callimg}  alt="" />
-            </div>
-
             <div>
                 <ServicesCard />
             </div>
-
-
-            <div className="section5">
-                <img src={logo} alt=""  />
-                <span>We specialise in providing solutions in both software and staffing that require a thorough 
-                understanding of business, technology, and the balance between the two. </span>
+            <div className="section-4">               
+                    <div className="contact-c">
+                        <span>Please get in touch with us, if you have something to share </span>
+                    </div>
+                    <button className="touch">Get in touch</button>
+                    <div className="phone">
+                        <img src={phone}  alt="" /> 
+                    </div>
+                                   
             </div>
-            <div className="S-section3">
-                {/* <div className="social">
+            <div className="section5">
+                <div className="social">
                     <h1 className="social-h1">social</h1><br />
                     <p>linkedin</p>
                     <p>Facebook</p>
                     <p>Instagram</p>
-                </div> */}
+                </div>
                 <div className="sitemap">
                 <h1 className="sitemap-h">sitemap</h1><br />
                     <p>About us</p>
@@ -111,11 +115,11 @@ function Services(){
                         (Behind Ratnadeep Super Market) White Fields, Kondapur, Hyderabad, Telangana, 500084</p>
                     </div>                   
                 </div>
-                {/* <div className="extra">
+                <div className="extra">
                     <span className="copyright">© Copyright nfcsolutionsusa. All Rights Reserved</span>
                     <span className="terms">Terms & Conditons</span>
                     <span className="privacy">Privacy Policy</span>
-                </div> */}
+                </div>
                 
             </div>
         </div>
