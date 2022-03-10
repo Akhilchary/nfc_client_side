@@ -62,13 +62,13 @@ function Careers(){
                 </div> <br /> <br /><br /> */}
                 <div className="product">
                     <hr/><br /><br />
-                    <span>Product Designer Intern</span><br /> <br /><br />
+                    <span>Product Designer Intern<span className="second">USA, Hybrid</span></span><br /> <br /><br />
                     <hr/><br /><br /> 
-                    <span>Blockchain Developer</span><br /> <br /><br />
+                    <span>Blockchain Developer<span className="second1">India, Remote</span></span><br /> <br /><br />
                     <hr/><br /><br />
-                    <span>UX Designer</span><br /> <br /><br />
+                    <span>UX Designer<span className="second2">USA, Hybrid</span></span><br /> <br /><br />
                     <hr/><br /> <br />
-                    <span>Full Stack Developer</span><br /> <br /><br />
+                    <span>Full Stack Developer<span className="second3">USA, Hybrid</span></span><br /> <br /><br />
                     <hr/><br /> <br />
                     {/* <button className="view">View more</button> */}
                 </div>
