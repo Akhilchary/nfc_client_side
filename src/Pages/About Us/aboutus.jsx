@@ -1,5 +1,5 @@
 import React from "react";
-import "../About Us/aboutus.css";
+import "./aboutus.css"
 import logo from "../../Images/image 4.png"
 import meeting from "../../Images/Rectangle 255.png";
 import hands from "../../Images/Rectangle 194.png";
