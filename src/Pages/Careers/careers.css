@@ -165,7 +165,7 @@ h3{
 .product>span{
     position: relative;
     left: 170px;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 700;
     font-family: 'Rubik', sans-serif;  
 }
@@ -173,16 +173,16 @@ h3{
     color: blue;
 }
 .second{
-    margin-left: 500px;
+    margin-left: 600px;
 }
 .second1{
-    margin-left: 530px;
+    margin-left: 630px;
 }
 .second2{
-    margin-left: 650px;
+    margin-left: 730px;
 }
 .second3{
-    margin-left: 550px;
+    margin-left: 640px;
 }
 .product>h3{
     position: relative;
