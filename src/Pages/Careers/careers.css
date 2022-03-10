@@ -158,19 +158,31 @@ h3{
     margin-top: 100px;
 }
 .product>hr{
-    width: 90%;
+    width: 100%;
     position: relative;
     left: 170px;
 }
 .product>span{
     position: relative;
-    left: 225px;
+    left: 170px;
     font-size: 26px;
     font-weight: 700;
     font-family: 'Rubik', sans-serif;  
 }
 .product>span:hover{
     color: blue;
+}
+.second{
+    margin-left: 500px;
+}
+.second1{
+    margin-left: 530px;
+}
+.second2{
+    margin-left: 650px;
+}
+.second3{
+    margin-left: 550px;
 }
 .product>h3{
     position: relative;
