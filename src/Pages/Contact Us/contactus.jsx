@@ -19,9 +19,9 @@ function contactUs(){
                 <p className="contactus_landing_textdescription">We would love to hear from you </p>
                 <p className="contactus_landing_textdescription1">Any thing that you want us to know. Ranging from an idea you have, to feedback about our service, feel free to let us know. </p>
                 <img class="contactus_landing_image" src={Phone} alt="" />
-                <img src={call} alt="" className="contactus_landing_call" />
+                {/* <img src={call} alt="" className="contactus_landing_call" />
                 <img src={At_the_rate} alt="" className="contactus_landing_at_the_rate" />
-                <img src={messege} alt="" className="contactus_landing_messege" />
+                <img src={messege} alt="" className="contactus_landing_messege" /> */}
             </div>  
             <div className="body2">
                 <p className="body2_text1">Fill out the form</p>
