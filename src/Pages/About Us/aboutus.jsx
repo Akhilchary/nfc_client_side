@@ -31,8 +31,11 @@ function Aboutus(){
                 <h1>About Us</h1>
                 <img src={meeting} alt=""  />
                 <div className="content1">
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum </span>
+                    <span>At NFC solutions, we listen to you, we hear you, and make sure that we turn your vision for this 
+                    world into something tangible. Into something you can call reality. </span><br /><br />
+                    <span> We also develop and produce products that take us leaps and bounds ahead as a society. We, at NFC solutions believe that change, is the only constant.</span>
+               
+                    
                     <div className="icons">
                         
                         <img class="idea animate__animated animate__slideInRight" src={idea} alt=""  />
@@ -45,15 +48,12 @@ function Aboutus(){
             </div>
             <div className="A-section2">
                 <h1>Our Vision</h1>
+                
                 <img src={hands} alt=""  />
+                
                 <div className="content2">
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, 
-                    consectetur adipiscing elit. <br /><br />
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, 
-                    consectetur adipiscing elit.</span>
-                </div>
+                <span>Our vision is simple. It is to make sure that the world is a better and easier place to navigate, and we are the perfect ones to do it, for technology is the greatest advancement mankind can make. And once it is made, it can never be unmade. </span>
+                     </div>
                 
             </div>
             {/* <div className="A-section3">
