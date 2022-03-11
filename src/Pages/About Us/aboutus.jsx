@@ -3,15 +3,15 @@ import "./aboutus.css"
 import logo from "../../Images/image 4.png"
 import meeting from "../../Images/Rectangle 255.png";
 import hands from "../../Images/Rectangle 194.png";
-import brokeage from "../../Images/piggy-bank.png";
-import telecom from "../../Images/telecommunications.png";
-import pharma from "../../Images/fingerprint.png";
-import technology from "../../Images/notebook-computer.png";
-import insurance from "../../Images/umbrella.png";
-import government from "../../Images/government.png";
-import facility from "../../Images/facility-management.png";
-import supply from "../../Images/supply-chain.png";
-import events from "../../Images/events management.png";
+// import brokeage from "../../Images/piggy-bank.png";
+// import telecom from "../../Images/telecommunications.png";
+// import pharma from "../../Images/fingerprint.png";
+// import technology from "../../Images/notebook-computer.png";
+// import insurance from "../../Images/umbrella.png";
+// import government from "../../Images/government.png";
+// import facility from "../../Images/facility-management.png";
+// import supply from "../../Images/supply-chain.png";
+// import events from "../../Images/events management.png";
 import idea from "../../Images/idea.png";
 import user from "../../Images/user.png";
 import technical from "../../Images/technical-support.png";
