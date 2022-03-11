@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react'
 import AddContent from '../Add-content/addContent';
 import ReactDOM from 'react-dom';
+import "../login/login.css";
 
 const Login = () => {
     const [username,setUsername]=useState('');
@@ -25,14 +26,17 @@ const Login = () => {
     }
   return (
       <>
-        <h1>Login</h1>
+      <div className='main'>
+          <h1 className='login-h'>Login</h1>
         <div>
-            <label htmlFor="inp1">username</label>
-            <input type="text" name="username" id="inp1" onChange={e=>setUsername(e.target.value)} />
-            <label htmlFor="pwd">password</label>
-            <input type="text" name="password" id="pwd" onChange={e=>setPassword(e.target.value)} />
-            <button onClick={handleclick}>submit</button>
+            <label className='label1' htmlFor="inp1">username</label>
+            <input className='input1' type="text" name="Username" id="inp1" onChange={e=>setUsername(e.target.value)} /><br />
+            <label className='label2' htmlFor="pwd">password</label>
+            <input className='input2' type="text" name="Password" id="pwd" onChange={e=>setPassword(e.target.value)} />
+            <button className='submi' onClick={handleclick}>submit</button>
         </div>
+      </div>
+        
     </>
   )
 }
