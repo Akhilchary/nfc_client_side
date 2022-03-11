@@ -67,7 +67,7 @@
     
 }
 /* .A-section3{
-    height: 500px;
+    height: 650px;
     background-color: #EFF1F1;
     position: relative;
     top: 250px;
@@ -75,11 +75,21 @@
 .A-section3>h1{
     position: relative;
     left: 60px;
-    top: 60px;
+    top: 100px;
     font-size: 36px;
     font-weight: 700;
     width: 300px;
     height: 45px;
+}
+.cards{
+    display: flex;
+    margin: 30px;
+    position: relative;
+    top: 100px;
+}
+.card-1{
+    width: 232px;
+    height: 280px;
 }
 .card1>img{
     width: 100px;
@@ -87,6 +97,9 @@
     position: relative;
     top: 50px;
     left: 66px;
+}
+p{
+    text-align: center;
 }
 .cards>div{
     width: 232px;
