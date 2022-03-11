@@ -1,0 +1,55 @@
+
+.main{
+    width: 500px;
+    height: 400px;
+    box-shadow: -4px -4px 12px rgba(0, 0, 0, 0.25), 4px 4px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+.login-h{
+    font-size: 50px;
+    color: #007BFF;
+    margin-left: 170px;
+}
+.label1{
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 80px;
+    position: relative;
+    top: 30px;
+}
+.label2{
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 80px;
+    position: relative;
+    top: 50px;
+}
+.input1{
+    width: 220px;
+    height: 25px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.input2{
+    width: 220px;
+    height: 25px;
+    position: relative;
+    top: 45px;
+    left: 23px;
+}
+.submi{
+    width: 150px;
+    height: 45px;
+    border-style: none;
+    background-color: #007BFF;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 180px;
+}
