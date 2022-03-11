@@ -1,14 +1,32 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect} from 'react'
 import "./productsCust.css";
-import productsData from './prodCard1Data';
-import custData from './custData';
+// import productsData from './prodCard1Data';
+// import custData from './custData';
 import {Card1} from './ProdCard1';
 import Card2 from './ProdCard2';
 import Footer from './footer-navbar/footer';
 import Navbar from '../../Components/navbar/navbar.jsx';
 import img1 from './prod-images/img1.png';
+import axios from "axios";
 
 function ProductsCust() {
+  let [custdata,setCustdata]=useState([]);
+  let [productsdata,setProductsdata]=useState([]);
+
+  useEffect(()=>{
+    const fetchData=async ()=>{
+      let resp=await axios.get("https://nfc-api-iare2.herokuapp.com/api/prod");
+      let resc=await axios.get("https://nfc-api-iare2.herokuapp.com/api/cust");
+      setProductsdata(resp.data);
+      setCustdata(resc.data);
+      
+      console.log("skdlfj skdfj jk ",productsdata);
+      console.log(" custdata ",custdata);
+    }
+    fetchData();
+  },[])
+
+
   const activeBtncss={
     backgroundColor:"#0073CB",
     width:"59vw"
@@ -42,21 +60,26 @@ function ProductsCust() {
     
   }
   console.log(toggle);
-  let prodcustdata=productsData;
+  let prodcustdata=productsdata;
   if(toggle==="P"){
     divProdCss=activedivcss;
     btnProdCss=activeBtncss;
     divCustCss=inactivedivcss;
     btnCustCss=inactiveBtncss;
-    prodcustdata=productsData;
+    prodcustdata=productsdata;
   }else{
   
     divCustCss=activedivcss;
     btnCustCss=activeBtncss;
     divProdCss=inactivedivcss;
     btnProdCss=inactiveBtncss;
-    prodcustdata=custData;
+    prodcustdata=custdata;
   }
+  
+  console.log("skdlfj skdfj jk ",productsdata);
+  console.log(" custdata ",custdata);
+
+
   return (
     <>
     <Navbar />
