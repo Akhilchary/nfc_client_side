@@ -1,0 +1,13 @@
+.all{
+    margin-left: 200px;
+    
+}
+.add{
+    width: 100px;
+    height: 30px;
+    background-color:#007BFF;
+    border-radius: 30px;
+    border-style: none;
+    font-weight: 400;
+    color: white;
+}
