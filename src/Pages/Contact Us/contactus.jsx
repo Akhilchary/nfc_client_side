@@ -3,9 +3,10 @@ import Navbar from "../../Components/navbar/navbar";
 //import nfcTag from "../../Components/NFC-TAG/nfc_tag";
 import Logo from "../../Images/logo.png";
 import Phone from "../../Images/unsplash_QLqNalPe0RA.png";
-// import call from "../../Images/";
-// import At_the_rate from "../../Images/at_the_rate";
-// import messege from "../../Images/mesege";
+import call from "../../Images/Vector1.png";
+import At_the_rate from "../../Images/Vector2.png";
+import messege from "../../Images/Vector3.png";
+
 
 function contactUs(){
     return(
@@ -18,9 +19,9 @@ function contactUs(){
                 <p className="contactus_landing_textdescription">We would love to hear from you </p>
                 <p className="contactus_landing_textdescription1">Any thing that you want us to know. Ranging from an idea you have, to feedback about our service, feel free to let us know. </p>
                 <img class="contactus_landing_image" src={Phone} alt="" />
-                {/* <img src={call} alt="" className="contactus_landing_call" /> */}
-                {/* <img src={At_the_rate} alt="" className="contactus_landing_at_the_rate" /> */}
-                {/* <img src={messege} alt="" className="contactus_landing_messege" /> */}
+                <img src={call} alt="" className="contactus_landing_call" />
+                <img src={At_the_rate} alt="" className="contactus_landing_at_the_rate" />
+                <img src={messege} alt="" className="contactus_landing_messege" />
             </div>  
             <div className="body2">
                 <p className="body2_text1">Fill out the form</p>

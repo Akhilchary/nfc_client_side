@@ -6,7 +6,9 @@ import ebounti from "../../Pages/Product-Customers/customer-images/image-2.png";
 import yogifi from "../../Pages/Product-Customers/customer-images/image-1.png";
 import allcargo from "../../Pages/Product-Customers/customer-images/image-5.png";
 import inta from "../../Pages/Product-Customers/customer-images/image-6.png";
-
+import PD from "../../Images/fi_maximize.svg";
+import SOL from "../../Images/Group 763.svg";
+import Auth from "../../Images/Group 767.svg";
 
 
 function Card(props){
@@ -116,13 +118,13 @@ function Home(){
                 <div class="core_values_cards">
                 
                     <div class="core_values_card1">
-                        <Card   text="Product Development" textdescription="Developing products is more than a process. It is an art form, and we strive to perfect it, and make sure that we achieve exactly what we set out to do. " />
+                        <Card src={PD}  text="Product Development" textdescription="Developing products is more than a process. It is an art form, and we strive to perfect it, and make sure that we achieve exactly what we set out to do. " />
                     </div>
                     <div class="core_values_card2">
-                        <Card   text="NFC Solutions" textdescription="We provide trustworthy contactless payment services for our users. Quick and easy transactions that remove hassle and make monetary transfers effortless." />
+                        <Card src={SOL}  text="NFC Solutions" textdescription="We provide trustworthy contactless payment services for our users. Quick and easy transactions that remove hassle and make monetary transfers effortless." />
                     </div>
                     <div class="core_values_card3">
-                        <Card   text="Authenticity Check" textdescription="Identifying the right candidates for employment is very important, and checking for authentic documentation is key to doing so. We make sure that this is done at the very highest level. " />
+                        <Card src={Auth}  text="Authenticity Check" textdescription="Identifying the right candidates for employment is very important, and checking for authentic documentation is key to doing so. We make sure that this is done at the very highest level. " />
                     </div>
                       
                 </div>
