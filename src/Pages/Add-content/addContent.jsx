@@ -112,7 +112,7 @@ const AddContent = () => {
         }
     }
   return (
-    <div>
+    <div className='all'>
         
         <div className='prod-div'>
             <h3>Add Product</h3>
@@ -122,7 +122,7 @@ const AddContent = () => {
             <input type="file" id='prod-img' name='prod-img' onChange={e=>getProdimg(e.target.files[0])}  /><br />
             <label htmlFor="prod-desc">Product Description</label>
             <input type="text" id='prod-desc' name='prod-desc' value={proddesc} onChange={e=>setProddesc(e.target.value)}  /><br />
-            <button onClick={prodSubmit}>Submit</button><br />
+            <button className='add' onClick={prodSubmit}>Submit</button><br />
         </div>
 
         <div className='cust-div'>
@@ -133,7 +133,7 @@ const AddContent = () => {
             <input type="file" id='cust-img' name='cust-img' src="" alt="" onChange={e=>getCustimg(e.target.files[0])}  /><br />
             <label htmlFor="cust-desc">Customer Description</label>
             <input type="text" id='cust-desc' name='cust-desc' value={custdesc}  onChange={e=>setCustdesc(e.target.value)} /><br />
-            <button onClick={custSubmit}>Submit</button><br />
+            <button className='add' onClick={custSubmit}>Submit</button><br />
         </div>
         <div className='serv-div'>
             <h3>Add service</h3>
@@ -143,7 +143,7 @@ const AddContent = () => {
             <input type="file" id='serv-img' name='serv-img'  onChange={e=>getServimg(e.target.files[0])}  /><br />
             <label htmlFor="serv-desc">Service Description</label>
             <input type="text" id='serv-desc' name='serv-desc' onChange={e=>setServdesc(e.target.value)}  /><br />
-            <button onClick={serviceSubmit}>Submit</button><br />
+            <button className='add' onClick={serviceSubmit}>Submit</button><br />
         </div>
 
 
