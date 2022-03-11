@@ -3,9 +3,9 @@ import Navbar from "../../Components/navbar/navbar";
 //import nfcTag from "../../Components/NFC-TAG/nfc_tag";
 import Logo from "../../Images/logo.png";
 import Phone from "../../Images/unsplash_QLqNalPe0RA.png";
-import call from "../../Images/Vector1.png";
-import At_the_rate from "../../Images/Vector2.png";
-import messege from "../../Images/Vector3.png";
+// import call from "../../Images/Vector1.png";
+// import At_the_rate from "../../Images/Vector2.png";
+// import messege from "../../Images/Vector3.png";
 
 
 function contactUs(){
