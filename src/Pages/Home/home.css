@@ -3,12 +3,11 @@
   top: 15%;
   width: 100%;
   height: 85%;
-  
+  display: flex;
 }
-.slides{
-  width: 100%;
-}
+.landingpage_productname{
 
+}
 .landingpage_productname_text  {
   position: absolute;
   width: 84px;
@@ -54,6 +53,7 @@
  left: 65%;
  width: 250px;
 }
+
 .manual_buttons{
   position: absolute;
   top: 80%;
@@ -100,9 +100,6 @@ line-height: 19px;
 text-align: center;
 color: #000000;
 }
-.button2_line{
-  
-}
 .button3{
   position: absolute;
 width: 160px;
@@ -117,9 +114,6 @@ line-height: 19px;
 text-align: center;
 color: #000000;
 }
-.button3_line{
-
-}
 .button4{
   position: absolute;
 width: 100px;
@@ -133,9 +127,6 @@ font-size: 16px;
 line-height: 19px;
 text-align: center;
 color: #000000;
-}
-.button4_line{
-  
 }
 /*About Us */
 .landingpage_body2{
@@ -452,22 +443,13 @@ color: #000000;
   position: absolute;
   display: none;
   width: 250px;
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 21px;
-line-height: 25px;
-letter-spacing: 0.02em;
-
-color: #000000;
-
 }
 .landingpage_serviceImage{
   position: relative;
   display: none;
   width: 150px;
   left: 80%;
-  top: -40%;
+  top: -60%;
 }
 .serviceCard1 {
   position: absolute;
@@ -483,9 +465,17 @@ color: #000000;
 .serviceCard1:hover .landingpage_serviceCardTextdescription,.serviceCard2:hover .landingpage_serviceCardTextdescription,.serviceCard3:hover .landingpage_serviceCardTextdescription,.serviceCard4:hover .landingpage_serviceCardTextdescription {
   position: relative;
   display: flex;
-  top: 10%;
-  width: 80%;
+  top: -10%;
+  width: 30%;
   height: 15%;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 25px;
+letter-spacing: 0.02em;
+
+color: #000000;
 }
 .serviceCard2 {
   position: absolute;
@@ -493,7 +483,7 @@ color: #000000;
   height: 15%;
   left: 10%;
   right: 0%;
-  top: 42%;
+  top: 45%;
 }
 .serviceCard3 {
   position: absolute;
@@ -501,7 +491,7 @@ color: #000000;
   height: 15%;
   left: 10%;
   right: 0%;
-  top: 57%;
+  top: 65%;
 }
 .serviceCard4 {
   position: absolute;
@@ -509,20 +499,20 @@ color: #000000;
   height: 15%;
   left: 10%;
   right: 0%;
-  top: 72%;
+  top: 85%;
 }
 .serviceCard1:hover img,.serviceCard2:hover img,.serviceCard3:hover img,.serviceCard4:hover img{
   display: flex;
   animation-duration:3.5s;
   transition: 1.5s;
-  width: 100px;
+  width: 140px;
 }
 .landingpage_services_findmore_button{
     position: absolute;
     width: 197px;
     height: 70px;
-    left: 1165px;
-    top: 90%;
+    left: 80%;
+    top: 110%;
     border: none;
     background: #007BFF;
     border-radius: 40px;
@@ -533,7 +523,7 @@ color: #000000;
 /* Contact Us page */
 .landingpage_body6{
   position: absolute;
-  top: 480%;
+  top: 520%;
   width: 100%;
   height: 100%;
 }
@@ -769,7 +759,7 @@ border-radius: 10px;
   width: 100%;
   height: 80%;
   left: 0px;
-  top: 580%;
+  top: 610%;
   background: #1B1C1D;
 }
 .landingpage_nfcdescription{
@@ -1018,7 +1008,7 @@ color: #747474;
 .footer_bottom{
   position: absolute;
   width: 100%;
-  top: 650%;
+  top: 680%;
   display: flex;
 }
 .landingpage_footer_copyright{
@@ -1227,20 +1217,18 @@ color: #747474;
   height: 100%;
   left: 0px;
   top: 440%;
-  
 }
 .ourcustomers_text {
   position: absolute;
   width: 35%;
-  height: 19px;
+  height: 27px;
   left: 5%;
   top: 10%;
-  font-family: Rubik;
+  font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
   letter-spacing: -0.02em;
   color: #007BFF;
 }
@@ -1249,24 +1237,29 @@ color: #747474;
   width: 288px;
   height: 92px;
   left: 5%;
-  top: 15%;
-  font-family: Ubuntu;
+  top: 25%;
+  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 17px;
   line-height: 23px;
-  letter-spacing: -0.02em;
-  color: #000000;
-
+  /* or 135% */
+  color: #212121;
 }
-
-.landingpage_services_getintouch_button{
+.landingpage_ourcustomers_findmore_button{
   border: none;
   position: absolute;
-  left: 5%;
-  top: 40%;
   background: #007BFF;
   border-radius: 40px;
+  height: 56.154052734375px;
+  width: 160px;
+  left: 22px;
+  top: 265px;
+  border-radius: 40px;
+  }
+  .landingpage_ourcustomers_findmore_button:hover{
+    text-decoration: underline;
+    transition: 50ms;
   }
   .ourcustomer_boxes{
     position: relative;
@@ -1279,20 +1272,25 @@ color: #747474;
     display: inline-block;
   }
   .customer_image{
-  position: absolute;
-  left: 6.18%;
-  top: 10%;
-  left: 120%;
+    position: absolute;
+    left: 6.18%;
+    top: 10%;
+    left: 120%;
   }
   .customers_description{
     position: absolute;
-    left: 6.18%;
-    top: 180%;
-    font-family: Karla;
+    height: 97px;
+    width: 203.7941131591797px;
+    left: 20.876953125px;
+    top: 146px;
+    font-family: 'Karla';
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 15px;
     line-height: 20px;
+    /* or 133% */
+    letter-spacing: -0.02em;
+    color: #434343;
     /* or 133% */
     letter-spacing: -0.02em;
     color: #434343;
@@ -1325,13 +1323,13 @@ color: #747474;
     background: #FFFFFF;
     border-radius: 20px 0px 0px 20px;
   }
+
     /* Services */
     .landingpage_body5{
       position: absolute;
       width: 360px;
       height: 135%;
       top: 600%;
-    
   }
   .landingpage_Services_text{
     position: absolute;
@@ -1354,13 +1352,14 @@ color: #747474;
     height: 88px;
     left: 5%;
     top: 10%;
-    font-family: Mariupol;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 22px;
-    /* or 110% */
-    color: #000000;
+    ffont-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 25px;
+letter-spacing: 0.02em;
+
+color: #000000;
   }
   .landingpage_serviceCardName{
     position: initial;
@@ -1508,23 +1507,24 @@ color: #747474;
   }
   .landingpage_footer_image{
     position: relative;
-    left: 10%;
+    left: 5%;
     top: 10%;
   }
   .landingpage_footer_nfc_description{
     position: relative;
   width: 233px;
   height: 66px;
-  left: 10%;
+  left: 5%;
   top: 60%;
-  font-family: Mariupol;
+  font-family: 'Mariupol';
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 22px;
-  /* or 157% */
-  letter-spacing: -0.02em; 
+  /* or 138% */
+  letter-spacing: -0.02em;
   color: #747474;
+
   }
   .landingpage_footer_office{
     position: absolute;
@@ -1533,7 +1533,7 @@ color: #747474;
   }
   .landingpage_footer_office_text{
     padding-left: 5%;
-    left: 2%;
+    left: 22px;
     color: #FFFFFF;
   }
   .landingpage_footer_usa{
@@ -1549,7 +1549,7 @@ color: #747474;
   .landingpage_footer_india{
     position: absolute;
     width: 252px;
-    height: 231px;
+    height: 240px;
     left: 22px;
     top: 450%;
     border: 1px solid rgba(116, 116, 116, 0.2);
@@ -1558,6 +1558,7 @@ color: #747474;
   }
   .landingpage_footer_usa_text{
   position: absolute;
+  top: 10%;
   left: 11.39%;
   font-family: Gilroy;
   font-style: normal;
@@ -1570,7 +1571,9 @@ color: #747474;
 }
 .landingpage_footer_usa_address{
   position: relative;
-  left: 3%;
+  width: 213px;
+  left:11.39%;
+  top: 25%;
   font-family: Mariupol;
   font-style: normal;
   font-weight: normal;
@@ -1583,13 +1586,60 @@ color: #747474;
 }
 .landingpage_footer_sitemap{
   position: absolute;
-  top: 380%;
+  top: 65%;
   left: 10%;
 }
 .landingpage_footer_social{
   position: absolute;
-  top: 380%;
-  left: 50%;
+  top: 65%;
+  left: 10%;
   margin-left: 50%;
+}
+.footer_bottom{
+  position: absolute;
+  height: 20%;
+  width: 360px;
+top: 1011px;
+border-radius: nullpx;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #747474;
+}
+.landingpage_footer_copyright{
+  position: absolute;
+  left: 5%;
+  top: 4550.08%;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #747474;
+}
+.landingpage_footer_privacy{
+  position: absolute;
+  left: 5%;
+  top: 4600%;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #747474;
+}
+.landingpage_footer_terms{
+  position: absolute;
+  left: 6.11%;
+  top: 4650%;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #747474;
 }
 }

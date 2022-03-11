@@ -8,43 +8,46 @@
 }
 .contactus_landing_text{
   position: absolute;
-  left: 43px;
-  top: 3.84%;
-  font-family: 'Gilroy';
+  left: 5%;
+  right: 85.69%;
+  top: 4.28%;
+  bottom: 93.79%;
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 54px;
-  line-height: 65px;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
   letter-spacing: -0.02em;
   color: #007BFF;
 }
 .contactus_landing_textdescription{
   position: absolute;
-  width: 601px;
-  height: 147px;
-  left: 43px;
-  top: 15%;
-  font-family: 'Karla';
+  width: 450px;
+  height: 114px;
+  left: 5%;
+  top: 80px;
+  font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 42px;
-  line-height: 49px;
+  line-height: 57px;
   letter-spacing: -0.02em;
   color: #000000;
 }
 .contactus_landing_textdescription1{
   position: absolute;
   width: 551px;
-  height: 100px;
-  left: 43px;
-  top: 45%;
-  font-family: 'Karla';
+  height: 50px;
+  left: 5%;
+  top: 270px;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 25px;
   /* or 125% */
-  color: #000000;
+  color: #000000;                               
 }
 .contactus_landing_image{
   position: absolute;
@@ -84,52 +87,54 @@
     height: 100%;
 }
 .body2_text1{
-    position: relative;
-    width: 416px;
-    height: 54px;
-    left: 5%;
-    top: 10%;
+    position: absolute;
+width: 416px;
+height: 27px;
+left: 5%;
+top: 10;
 
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 27px;
-    /* or 75% */
-    letter-spacing: -0.02em;
-    color: #000000;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 27px;
+/* identical to box height, or 75% */
+
+letter-spacing: -0.02em;
+
+color: #000000;
+
 
 }
 .body2_text2{
-    position: relative;
-    width: 553px;
-    height: 54px;
-    left: 5%;
-    top: 10%;
-    font-family: Mariupol;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    /* or 150% */
-    letter-spacing: -0.02em;
-    color: rgba(33, 33, 33, 0.8);
+    position: absolute;
+  width: 553px;
+  height: 27px;
+  left: 5%;
+  top: 15%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height, or 150% */
+  letter-spacing: -0.02em;
+  color: rgba(33, 33, 33, 0.8);
 }
 .contactus_conversation{
-    position: relative;
-    width: 416px;
-    height: 44px;
+    position: absolute;
+    width: 437px;
+    height: 49px;
     left: 5%;
-    top: 10%;
-    font-family: Gilroy;
+    top: 25%;
+    font-family: 'Open Sans';
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
-    line-height: 44px;
+    line-height: 49px;
     /* identical to box height */
     letter-spacing: -0.02em;
     color: #000000;
-
 }
 .body2_box{
     position: absolute;
@@ -661,7 +666,62 @@
     .nav-item{
       display: none;
     }
-  
+    .body1{
+      position: absolute;
+      width: 360px;
+      height: 100%;
+
+    }
+    .contactus_landing_text{
+      position: absolute;
+      width: 75px;
+      height: 19px;
+      left: 5%;
+      top: 0%;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 19px;
+      /* identical to box height */
+      color: #007BFF;
+    }
+    .contactus_landing_textdescription{
+      position: absolute;
+      width: 250px;
+      height: 66px;
+      left: 5%;
+      top: 10%;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 33px;
+      letter-spacing: -0.02em;
+      color: #000000;
+    }   
+    .contactus_landing_textdescription1{
+      position: absolute;
+      width: 315px;
+      height: 75px;
+      left: 5%;
+      top: 30%;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 25px;
+      /* or 156% */
+      color: #000000;
+    }
+    .contactus_landing_image{
+      position: absolute;
+      width: 80%;
+      height: 313px;
+      left: 10%;
+      top: 51%;
+      border-radius: 10px;
+    }
     .body2{
         position: absolute;
         width: 360px;

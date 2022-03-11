@@ -2,17 +2,12 @@ import React from "react";
 import Logo from "../../Images/logo.png";
 import "./home.css";
 import Navbar from "../../Components/navbar/navbar";
+import ebounti from "../../Pages/Product-Customers/customer-images/image-2.png";
+import yogifi from "../../Pages/Product-Customers/customer-images/image-1.png";
+import allcargo from "../../Pages/Product-Customers/customer-images/image-5.png";
+import inta from "../../Pages/Product-Customers/customer-images/image-6.png";
 
-/*landing page slider Start*/
-    // var counter = 1;
-    // setInterval(function(){
-    //   document.getElementById('radio' + counter).checked = true;
-    //   counter++;
-    //   if(counter > 4){
-    //     counter = 1;
-    //   }
-    // }, 5000);
-/*landing page slider End*/
+
 
 function Card(props){
     return( 
@@ -71,20 +66,19 @@ function Home(){
                 <Navbar />
             </div>
             <div className="landingpage_body1" >
-                <div className="slider">
-                    <div className="slides">
-                        <div class="slide1">
-                            <Slideshow landingpage_productname="MYQUIX " landingpage_productdescription="loreum epsum loreum epsum better loreum ep loreum loreum loreum" landingpage_knowmore="Know More" landingpage_productimage={Logo}  />
-                            
-                        </div>
-                        <div class="slide2">
-                            
-                        </div>
-                        <div class="slide3">
-                            
-                        </div>
+                <div className="slides">
+                    <div class="slide">
+                        <Slideshow landingpage_productname="MYQUIX " landingpage_productdescription="loreum epsum loreum epsum better loreum ep loreum loreum loreum" landingpage_knowmore="Know More" landingpage_productimage={Logo}  />
+                        
                     </div>
-                    <div className="manual_buttons">
+                    <div class="slide">
+                        <Slideshow landingpage_productname="MYQUIX " landingpage_productdescription="loreum epsum loreum epsum better loreum ep loreum loreum loreum" landingpage_knowmore="Know More" landingpage_productimage={Logo}  />
+                    </div>
+                    <div class="slide">
+                        <Slideshow landingpage_productname="MYQUIX " landingpage_productdescription="loreum epsum loreum epsum better loreum ep loreum loreum loreum" landingpage_knowmore="Know More" landingpage_productimage={Logo}  />
+                    </div>
+                </div>
+                <div className="manual_buttons">
                         <button class="button1">
                         <p className="button1_text">MYQUIX
                         <hr /></p>
@@ -110,7 +104,6 @@ function Home(){
                     </div>
                     
                 </div>
-            </div>
             <div className="landingpage_body2">
                 <div class="landingpage_aboutus_page">
                 <p class="aboutus_text">About Us</p>
@@ -142,16 +135,16 @@ function Home(){
                     </div>
                 <div className="ourcustomer_boxes">
                     <div className="box1">
-                        <Ourcustomers customers_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nulla maecenas turpis orci, suspendisse tincidunt. turpis orci, suspendisse tincidunt." customer_image={Logo} />
+                        <Ourcustomers customers_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nulla maecenas turpis orci, suspendisse tincidunt. turpis orci, suspendisse tincidunt." customer_image={ebounti} />
                     </div>
                     <div className="box2">
-                        <Ourcustomers customers_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nulla maecenas turpis orci, suspendisse tincidunt. turpis orci, suspendisse tincidunt." customer_image={Logo} />
+                        <Ourcustomers customers_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nulla maecenas turpis orci, suspendisse tincidunt. turpis orci, suspendisse tincidunt." customer_image={yogifi} />
                     </div>
                     <div className="box3">
-                        <Ourcustomers customers_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nulla maecenas turpis orci, suspendisse tincidunt. turpis orci, suspendisse tincidunt." customer_image={Logo} />
+                        <Ourcustomers customers_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nulla maecenas turpis orci, suspendisse tincidunt. turpis orci, suspendisse tincidunt." customer_image={allcargo} />
                     </div>
                     <div className="box4">
-                        <Ourcustomers customers_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nulla maecenas turpis orci, suspendisse tincidunt. turpis orci, suspendisse tincidunt." customer_image={Logo} />
+                        <Ourcustomers customers_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nulla maecenas turpis orci, suspendisse tincidunt. turpis orci, suspendisse tincidunt." customer_image={inta} />
                     </div>
                 </div>
 

@@ -15,16 +15,16 @@ function contactUs(){
             </div>
             <div className="body1">
                 <h1 class="contactus_landing_text">Contact Us</h1>
-                <p className="contactus_landing_textdescription">lmao imessed up retty bad loreum be like lets sleep and im sure epsum </p>
-                <p className="contactus_landing_textdescription1">lmao imessed up retty bad loreum be like lets sleep and im sure epsum is alone and typin lmao imessed up retty bad loreum be like lets sleep and im sure epsum is alone and typin </p>
+                <p className="contactus_landing_textdescription">We would love to hear from you </p>
+                <p className="contactus_landing_textdescription1">Any thing that you want us to know. Ranging from an idea you have, to feedback about our service, feel free to let us know. </p>
                 <img class="contactus_landing_image" src={Phone} alt="" />
                 {/* <img src={call} alt="" className="contactus_landing_call" /> */}
                 {/* <img src={At_the_rate} alt="" className="contactus_landing_at_the_rate" /> */}
                 {/* <img src={messege} alt="" className="contactus_landing_messege" /> */}
-            </div> 
+            </div>  
             <div className="body2">
-                <p className="body2_text1">Lorem ipsum dolor sit amet</p>
-                <p className="body2_text2">Lorem ipsum dolor sit amet, consectetur adipiscing elitm ipsum dolor sit amet, consectetur.</p>
+                <p className="body2_text1">Fill out the form</p>
+                <p className="body2_text2">So that we can process your request faster</p>
                 <p className="contactus_conversation">Let’s start a conversation</p>
                 <div className="body2_box">
                     <input className="contactus_fname" type="text" name="name" placeholder="First Name*" required />
