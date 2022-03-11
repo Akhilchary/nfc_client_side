@@ -16,9 +16,8 @@ function Careers(){
             <div className="C-section1">
                 <span className="C-heading">Careers</span> <br />
                 <div className="C-Para">
-                    <span className="C-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh et pulvinar sem arcu 
-                    integer nulla senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh et 
-                    pulvinar sem arcu integer nulla senectus.</span>
+                    <span className="C-para">We are always looking for strong talent that can bolster our ranks.</span><br />
+                    <span className="C-para1">To work with us, would make your job more than a job. We would become your family, and you, ours.</span>
                 </div>
                 <button className="open">Open Roles</button>
                 
@@ -26,7 +25,7 @@ function Careers(){
             </div>
             <div className="C-section2">
                 <span className="hiring">Our Hiring Process</span>
-                <h1 className="hiring-content">lmao imessed up retty bad loreum be like lets sleep and im sure epsum </h1>
+                <h1 className="hiring-content">We take our hires very seriously and it is done through a meticulous process.</h1>
                 <div className="C-card1">
                     <img src={app}  alt=" " />
                     <h3>1.Application Submission</h3>
