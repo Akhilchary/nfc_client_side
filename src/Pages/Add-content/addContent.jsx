@@ -2,7 +2,7 @@ import axios from 'axios';
 import React from 'react';
 import { useState } from 'react';
 import './addContent.css';
-import Navbar from '../../Components/navbar/navbar';
+// import Navbar from '../../Components/navbar/navbar';
 
 const AddContent = () => {
     let [prodname,setProdname]=useState('');
@@ -114,7 +114,7 @@ const AddContent = () => {
     }
   return (
       <>    
-      <Navbar/>
+      {/* <Navbar/> */}
       <div className='all'>
         
         <div className='prod-div'>

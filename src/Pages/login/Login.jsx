@@ -9,7 +9,7 @@ const Login = () => {
     const [username,setUsername]=useState('');
     const [password,setPassword]=useState('');
 
-    const handleclick=()=>{
+    const handleclick=(e)=>{
         if(username==='' || password===''){
             alert("enter username and password");
         }else{
@@ -17,13 +17,15 @@ const Login = () => {
                 const res=await axios.post('https://nfc-api-iare2.herokuapp.com/api/auth/login/',{
                     username,password
                 });
-                 if (res.data==='found'){
-                ReactDOM.render(<AddContent />,document.getElementById('root'));
+                console.log(res.data);
+                if (res.data==='found'){
+                    ReactDOM.render(<AddContent />,document.getElementById('root'));
                 }else{
                     alert("wrong username or password");
                 }
             }
             checkUser();
+            e.preventDefault();
            
         }
     }
