@@ -24,7 +24,7 @@ export const Card1 = (props) => {
                 <>
                 <div key={x.id} className='inter-card1' style={intercard1css}>
                     <div className='card1-img'>
-                        <img style={card1_img} src={x.image} alt="" srcset="" />
+                        <img style={card1_img} src={x.custImage || x.prodImage} alt="" srcset="" />
                     </div>
                     <div className='card1-c'>
                         <p style={card1c}>{x.imageName}</p>

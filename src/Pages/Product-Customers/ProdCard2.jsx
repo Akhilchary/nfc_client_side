@@ -19,12 +19,12 @@ const Card2 = (props) => {
             <>
                 <div className='card2-div'>
                     <div className='card2-img'>
-                        <img src={x.image} style={card2imgcss} alt="" />
+                        <img src={x.custImage || x.prodImage} style={card2imgcss} alt="" />
                     </div>
                     <div className='card2-content'>
-                        <p>{x.imageName}</p>
+                        <p>{x.custName || x.prodName}</p>
                         <div className='card2-internal-con'>
-                            <p>{x.content}</p>
+                            <p>{x.custDesc || x.prodDesc}</p>
                         </div>
                     </div>
                 </div>
